@@ -1,4 +1,74 @@
+.tqiw-logo-and-heading{
+    margin: 2% 4%;
+    float: left;
+}
+.tqiw-logo{
+    width:8%;
+    float: left;
+}
+.tqiw-heading2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+.tqiw-2-heading{
+    float: left;
+    margin: 1% 2%;
+}
 
+.tqiw-heading3{
+    width: 62%;
+}
+.tqiw-heading4{
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+.tqiw-heading5{
+    font-weight: 600;
+    font-size: 24px;
+    color: #2599c9;
+    width: 51%;
+    float: right;
+}
+.header-underline{
+    display: block;
+    width: 11%;
+    background: #b9ddeb;
+    height: 4px;
+    transition:.4s;    position: absolute;
+    top: 95%;border-radius: 20px;
+}
+tqiw-video{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.tqiw-menu-sidebar{
+    float: left;
+    height: 773px;
+    background-color: #dfefac;
+    width: 20%;
+    border: 1px solid;
+    border-color: #dfefac;
+    box-shadow: 4px 0px 5px #dfefac;padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.tqiw-menu-heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;
+}
+.about-us-underline{
+    display: block;
+    width: 23%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
 .about-us-list > li{
    list-style-type: none;
     cursor: pointer;
@@ -20,6 +90,59 @@
     transition: .4s;
     background: pink;
 }
+.offerings-menu-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;
+}
+.offerings-underline{
+    display: block;
+    width: 26%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.joinus-menu-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;
+}
+.joinus-underline{
+    display: block;
+    width: 22%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.networking-menu-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;    
+    margin-top: 110%;
+}
+.networking-underline{
+    display: block;
+    width: 22%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+/*
+.footer-privacy{
+    float: left;
+    border: 0;
+    margin-left: 41.5%;
+    border-right: 1px solid;
+    margin-top: 3%;
+}
+*/
+
 
 .about-us-list>.rahul:hover >span{
     width: 40px;
@@ -176,7 +299,7 @@
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 39%;
-    color: #b783e6;
+    color: #36adc1;
 }
 
 .event-list > span{
@@ -248,10 +371,12 @@
     box-shadow: 0px 6px 6px #bbb;
     border-color: #57caf9;    
     outline: 0;
+    margin-left: -1%;
 }
 
 .dont-miss-button:hover{
-    width: 97%;
+    width: 88%;
+    border: 1px solid #ac9292;
 }
 .your-membership-button{
     border: 0;
@@ -270,10 +395,11 @@
     border-color: white;
     outline: 0;
     transition: .4s;
+    margin-left: -1%;
 }
 .your-membership-button:hover{
-    width: 97%;
-    transition: 0.4s;
+    width: 88%;
+    border: 1px solid #ac9292;
 }
 
 .two-buttons{
@@ -296,8 +422,9 @@
     border-color: white;
     outline: 0;
     transition: .4s;
+    margin-left: -1%;
 }
 .feedback-button:hover{
-    width: 97%;
-    transition: 0.4s;
+    width: 88%;
+    border: 1px solid #ac9292;
 }
