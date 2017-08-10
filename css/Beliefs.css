@@ -1,0 +1,233 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.tqiw-headings-and-logo{
+    margin: 2% 4%;
+    float: left;
+}
+.tqiw-logo{
+    width:25%;
+    float: left;
+}
+.headings{
+    float: left;
+    margin: 1% 2%;
+}
+.heading1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+.heading2{
+    width: 62%;
+}
+.main-heading{
+    position: absolute;
+    right: 42%;
+    top: 4%;
+}
+.main-heading1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2599c9;
+    margin: 0;
+    float: left;
+}
+.header-underline{
+    display: block;
+    width: 27%;
+    background: #b9ddeb;
+    height: 4px;
+    transition: .4s;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.button{
+    position: absolute;
+    right: 0;
+    left: 81%;
+    top: 5%;
+}
+.two-more-buttons{
+    float: left;
+    height: 100%;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.about-us-heading{
+    width: 80%;  
+    float: left;
+}
+.heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 6%;
+    margin-top: 21px;
+}
+.beliefs-description{
+    float: left;
+    width: 22%;
+/*    margin: 6% 9%;*/
+        padding-left: 6%;
+    padding-top: 6%;
+}
+.heading-beliefs{
+    text-transform: uppercase;
+    color: #57caf9;
+    font-weight: bold;
+    font-size: 27px
+}
+
+.yoga-image{
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+}
+.image-yoga{
+    float: left;
+    width: 100%;
+    height: 330px;
+}
+.image-yoga{
+    float: left;
+    width: 100%;
+    height: 330px;
+}
+
+
+.footer{
+    clear: both;
+    background-color: #b3ddef;
+    height: 150px;
+    border: 1px solid;
+    border-color: #b3ddef;
+    box-shadow: 20px 25px 40px 20px #756f6f;
+}
+
+.footer > li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 8.5px;
+    padding: 0% 1%;
+    float: left;
+    margin-left: 23px;
+    margin-top: 2%;
+}
+.dont-miss-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 47px;
+    color: white;
+    font-weight: 600;
+    background-color: #57caf9;
+    /* margin: 0% 70%; */
+    border-radius: 50px 0px 0px 49px;
+    width: 86%;
+    font-size: 12px;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: #57caf9;
+    outline: 0;
+    transition: 0.4s;
+    float: right;
+}
+
+.dont-miss-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+.your-membership-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    margin: 7% -1%;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    float: left;
+}
+.your-membership-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+
+.two-buttons{
+    position: absolute;
+    bottom: 30%;
+}
+.feedback-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin: -1%;
+}
+.feedback-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+
+.about-us-description{
+    float: left;
+    background-color: #6cd4b4;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #6cd4b4;
+    box-shadow: 0px 5px 5px #c6e5c6;
+
+}
+.grid-1 {
+    float: left;
+    margin-top: 20%;
+}
+
+.tqiw-logo-and-heading {
+    float: left; 
+    width: 100%;
+}
+
+.tqiw-heading {
+    margin: 2% 4%;
+    float: left;
+    width: 24%;
+
+}
+
+.tqiw-main-heading {
+    float: left;
+    width: 25%;
+    margin-top: 2.6%;
+    margin-left: 1%;
+}
