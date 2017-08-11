@@ -1,0 +1,424 @@
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.tqiw-logo-and-heading{
+    float: left; 
+    width: 100%;
+    position: relative;
+}
+.tqiw-heading{
+    margin: 2% 4%;
+    float: left;
+    width: 24%;
+}
+.tqiw-logo{
+    width:26%;
+    float: left;
+}
+.tqiw-2headings{
+    float: left;
+    margin: 1% 2%;
+}
+.tqiw-heading1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.tqiw-heading2{
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+}
+.tqiw-main-heading{
+    float: left;
+    width: 25%;
+    margin-top: 2.6%;
+    margin-left: 1%;
+}
+.heading{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2599c9;
+    margin: 0;
+    float: left;
+}
+.header-underline{
+    display: block;
+    width: 27%;
+    background: #b9ddeb;
+    height: 4px;
+    transition:.4s;    
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.button{
+    position: absolute;
+    right: 0;
+    left: 81%;
+    top: 24%;
+}
+.bottons-zone{
+    float: left;
+    height: 5500px;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.allbuttons{
+    float: left;
+    height: 100%;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.offering{
+    width: 80%;  
+    float: left;
+}
+.offering-heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.1%;
+}
+
+.description{
+    float: right;
+    width: 50%;
+    margin-right: 23%;
+}
+
+
+.footer{
+    clear: both;
+    background-color: #b3ddef;
+    height: 150px;
+    border: 1px solid;
+    border-color: #b3ddef;
+    box-shadow: 20px 25px 40px 20px #756f6f;
+}
+.footer > li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 9px;
+    padding: 0% 1%;
+    float: left;
+    margin-left: 23px;
+    margin-top: 2%;
+}
+.dont-miss-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 47px;
+    color: white;
+    font-weight: 600;
+    background-color: #57caf9;
+/*    margin: 0% 70%;*/
+    border-radius: 50px 0px 0px 49px;
+    width: 86%;
+    font-size: 12px;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: #57caf9;
+    outline: 0;
+    transition: 0.4s;
+    float: right;
+}
+
+.dont-miss-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+.your-membership-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    margin: 7% 0%;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin-left: -1%;
+}
+.your-membership-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;  
+}
+.two-buttons{
+    position: absolute;
+    bottom: 30%;
+}
+.feedback-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin-left: -1%;
+}
+.feedback-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292; 
+}
+
+.about-us-description{
+    float: left;
+    background-color: #82d2f3;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #82d2f3;
+    box-shadow: -1px 3px 8px #bfb5b5;
+
+}
+
+.link{
+    color: #739073;
+    font-size: 11px;
+}
+.link:hover{
+    color: #739073;
+    text-decoration: none;   
+}
+
+
+.founders-heading {
+    text-transform: uppercase;
+    color: #41adda;
+    font-weight: bolder;
+    font-size: 26px;
+    /* float: left; */
+    display: inline-block;
+}
+
+.founders-heading2 {
+    color: #41adda;
+    font-weight: bold;
+    font-size: 24px;
+/*     float: left; */
+    display: inline-block;
+}
+
+.founders-headings {
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+
+.founders-underline {
+    display: block;
+    width: 36%;
+    background: #b9ddeb;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.founders-underline2 {
+    display: block;
+    width: 48%;
+    background: #b9ddeb;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.director-description {
+    float: left;
+    width: 58%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.link-1 {
+    color: #9fb977;
+}
+.link-1:hover{
+    text-decoration: none;
+    color: #b3c893;
+}
+
+.image {
+    margin-top: 22px;
+}
+
+.members-content{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    float: right;
+    width: 76%;
+}
+
+
+.description-undeline {
+    display: block;
+    width: 9.5%;
+    background: #b9ddeb;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.rajat-mehtas-descripton {
+    float: left;
+}
+
+.scrolling {
+    height: calc(100% - 240px);
+    overflow-y: scroll;
+    width: 80%; 
+    overflow-x: hidden;
+}
+
+.rajit-description-underline {
+    display: block;
+    width: 9%;
+    background: #b9ddeb;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.col-sm-12 {
+    float: left;
+    margin-left: 21%;
+    margin-top: 6%;
+}
+
+.members-heading {
+    margin-left: 14px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4bb7e3;
+}
+
+.members-underline {
+    display: block;
+    width: 5.3%;
+    background: #b9ddeb;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.members-description {
+    float: left;
+    margin-top: 4%;
+}
+
+.members-description-underline {
+    display: block;
+    width: 22.3%;
+    background: #e0e1e1;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.current-founders {
+    float: left;
+    margin-left: 21%; 
+    margin-top: 6%;
+}
+
+.current-founders-heading {
+    margin-left: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #9fb977;
+}
+
+.list-founders {
+    float: left;
+    margin-top: 0%;
+    width: 100%;
+    padding: 2% 2%;
+}
+
+.four-founders {
+    float: left;
+    display: inline-block;
+    width: 27%;
+    font-weight: bold;
+}
+
+.name-underline {
+    display: block;
+    width: 22.3%;
+    background: #e0e1e1;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+
+.three-founders {
+    float: left;
+    display: inline-block;
+    width: 27%;
+    font-weight: bold;
+}
+
+.three-more-founders {
+    float: left;
+    display: inline-block;
+    width: 27%;
+    font-weight: bold;
+}
+@media (max-width: 767px){
+        .your-membership-button {
+            font-size:9px !important;
+            font-weight: bold;
+            width: 90%;
+        } 
+        
+        .your-membership-button:hover{
+            width: 95%;
+        }
+    
+        .feedback-button{
+            font-size:9px !important;
+            font-weight: bold;
+            width: 90%;
+        }
+        .feedback-button:hover{
+            width: 95%;
+        }
+}

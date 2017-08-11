@@ -1,0 +1,363 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.tqiw-logo-and-heading{
+    float: left;
+    width: 100%;
+}
+.headings{
+    margin: 2% 4%;
+    float: left;
+}
+.logo{
+    width:26%;
+    float: left;
+}
+.tqiw-headings{
+    float: left;
+    margin: 1% 2%;
+}
+.heading1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.heading2{
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+}
+.tqiw-main-heading{
+    float: left;
+    width: 25%;
+    margin-top: 2.6%;
+    margin-left: 1%;
+}
+.main-heading1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2599c9;
+    margin: 0;
+    float: left;
+}
+.header-underline{
+    display: block;
+    width: 27%;
+    background: #b9ddeb;
+    height: 4px;
+    transition:.4s;    
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.buttons{
+    position: absolute;
+    right: 0;
+    left: 81%;
+    top: 5%;
+}
+.two-more-buttons{
+    float: left;
+    height: 100%;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.networking{
+    width: 80%;  
+    float: left;
+}
+.heading-networking{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 2.3%;
+}
+.heading-members{
+    float: left;
+    margin: 4% 8%;
+    width: 39%;
+}
+.members-heading{
+    text-transform: uppercase;
+    color: #d2b53d;
+    font-weight: bold;
+    font-size: 24px;
+}
+.description{
+    float: right;
+    width: 40%;
+    margin-right: 34%;
+}
+.name{
+    font-weight: bold;
+}
+.profile{
+    font-size: 10px;
+    color: #d2b53d;
+}
+.description2{
+    margin: 0 0 0; 
+    width: 96%;
+    padding-top: 10px;
+}
+.quotation{
+    color: #d2b53d;
+    font-size: 17px;
+    margin-left: -2%;
+}
+.quotation2{
+    color:#d2b53d;
+    font-size: 17px
+}
+.header-underline2{
+    display: block;
+    height: 4px;
+    width: 10%;
+    background-color: #e2d3ce;
+    border-radius: 120px;
+    margin-top: 3px;
+}
+.description3{
+    float: left;
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+.name2{
+    font-weight: bold;
+}
+.profile2{
+    font-size: 10px;
+    color: #d2b53d;
+}
+.description4{
+    margin: 0 0 0;
+    width: 96%;
+    padding-top: 10px;
+}
+.quotation3{
+    color: #d2b53d;
+    font-size: 17px;
+    margin-left: -1%;
+}
+.quotation4{
+    color:#d2b53d;
+    font-size: 17px
+}
+.header-underline3{
+    display: block;
+    height: 4px;
+    width: 11%;
+    background-color: #e2d3ce;
+    border-radius: 120px;
+    margin-top: 3px;
+}
+.description5{
+    float: left;
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+.name3{
+    font-weight: bold;
+}
+.profile3{
+    font-size: 10px;
+    color: #d2b53d;
+}
+.description6{
+    margin: 0 0 0; 
+    width: 96%;
+    padding-top: 10px;
+}
+.quotation5{
+    color: #d2b53d;
+    font-size: 17px;
+    margin-left: -1%;
+}
+.quotation6{
+    color:#d2b53d;
+    font-size: 17px
+}
+.header-underline4{
+    display: block;
+    height: 4px;
+    width: 11%;
+    background-color: #e2d3ce;
+    border-radius: 120px;
+    margin-top: 3px;
+}
+.description7{
+    float: right;
+    width: 40%;
+    margin-right: 34%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.name4{
+    font-weight: bold;
+}
+.profile4{
+    font-size: 10px;
+    color: #d2b53d;
+}
+.description8{
+    margin: 0 0 0; 
+    width: 96%;
+    padding-top: 10px;
+}
+.quotation7{
+    color: #d2b53d;
+    font-size: 17px;
+    margin-left: -1%;
+}
+.quotation8{
+    color:#d2b53d;
+    font-size: 17px
+}
+.header-underline5{
+    display: block;
+    height: 4px;
+    width: 10%;
+    background-color: #e2d3ce;
+    border-radius: 120px;
+    margin-top: 3px;
+}
+.footer{
+    clear: both;
+    background-color: #b3ddef;
+    height: 150px;
+    border: 1px solid;
+    border-color: #b3ddef;
+    box-shadow: 20px 25px 40px 20px #756f6f;
+}
+.footer > li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 8.5px;
+    padding: 0% 1%;
+    float: left;
+    margin-left: 23px;
+    margin-top: 2%;
+}
+.dont-miss-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 47px;
+    color: white;
+    font-weight: 600;
+    background-color: #57caf9;
+/*    margin: 0% 70%;*/
+    border-radius: 50px 0px 0px 49px;
+    width: 86%;
+    font-size: 12px;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: #57caf9;
+    outline: 0;
+    transition: 0.4s;
+    float: right;
+
+}
+
+.dont-miss-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+.your-membership-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    margin: 7% 0%;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin-left: -1%;
+}
+.your-membership-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+    
+}
+
+.two-buttons{
+    position: absolute;
+    bottom: 30%;
+}
+.feedback-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin-left: -1%;
+}
+.feedback-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+
+.about-us-description{
+    float: left;
+    background-color: #dac362;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #dac362;
+    box-shadow: -1px 3px 8px #bfb5b5;
+
+}
+.about-us-list{
+    float: left;
+}
+
+.link{
+    color: #ef9877;
+    font-size: 12px;
+}
+.link:hover{
+    color: #ef9877;
+    text-decoration: none;   
+}
+
+.tqiw-heading {
+    margin: 2% 4%;
+    float: left;
+    width: 24%;
+}
+
+.tqiw-2headings {
+    float: left;
+    margin: 1% 2%;
+}

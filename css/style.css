@@ -1,0 +1,430 @@
+.tqiw-logo-and-heading{
+    margin: 2% 4%;
+    float: left;
+}
+.tqiw-logo{
+    width:8%;
+    float: left;
+}
+.tqiw-heading2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+.tqiw-2-heading{
+    float: left;
+    margin: 1% 2%;
+}
+
+.tqiw-heading3{
+    width: 62%;
+}
+.tqiw-heading4{
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+.tqiw-heading5{
+    font-weight: 600;
+    font-size: 24px;
+    color: #2599c9;
+    width: 51%;
+    float: right;
+}
+.header-underline{
+    display: block;
+    width: 11%;
+    background: #b9ddeb;
+    height: 4px;
+    transition:.4s;    position: absolute;
+    top: 95%;border-radius: 20px;
+}
+tqiw-video{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.tqiw-menu-sidebar{
+    float: left;
+    height: 773px;
+    background-color: #dfefac;
+    width: 20%;
+    border: 1px solid;
+    border-color: #dfefac;
+    box-shadow: 4px 0px 5px #dfefac;padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.tqiw-menu-heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;
+}
+.about-us-underline{
+    display: block;
+    width: 23%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.about-us-list > li{
+   list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .5s;
+    font-weight: 100;
+}
+
+.about-us-list >.rahul{
+    margin-top: 11%;
+    width: 0;
+    transition: .5s;
+}
+
+.rahul >span {
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: .4s;
+    background: pink;
+}
+.offerings-menu-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;
+}
+.offerings-underline{
+    display: block;
+    width: 26%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.joinus-menu-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;
+}
+.joinus-underline{
+    display: block;
+    width: 22%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.networking-menu-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #36adc1;    
+    margin-top: 110%;
+}
+.networking-underline{
+    display: block;
+    width: 22%;
+    background: #e7c4ca;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+/*
+.footer-privacy{
+    float: left;
+    border: 0;
+    margin-left: 41.5%;
+    border-right: 1px solid;
+    margin-top: 3%;
+}
+*/
+
+
+.about-us-list>.rahul:hover >span{
+    width: 40px;
+}
+
+.rahul:hover{
+    color: black;
+    transition: 0.5s;
+    font-weight: 400;
+}
+
+.library:hover{
+    color: black;
+    transition: 0.5s;
+    font-weight: 400;
+}
+
+.membership:hover{
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.past:hover{
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+   
+}
+
+.library >span{
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: .4s;
+    background: pink;
+}
+.offering-list >.library:hover >span{
+    width: 40px;
+}
+
+.membership >span{
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: .4s;
+    background: pink;
+}
+
+.join-us-list >.membership:hover >span{
+    width: 40px;
+}
+
+.past >span{
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: .4s;
+    background: pink;
+}
+
+.past-event >.past:hover >span{
+    width: 40px;
+}
+
+
+
+.members-profile >span{
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: .4s;
+    background: pink;
+}
+
+.networking >.members-profile:hover >span{
+    width: 40px;
+}
+
+.members-profile:hover{
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+   
+}
+
+.about-us-list{
+    float: left;
+    width: 20%;
+    padding: 30px;
+    margin-top: 7%;
+}
+
+.list-item > span{
+    display: block;
+    width: 0px;
+    background: pink;
+    height: 2px;
+    transition:.4s;
+}
+.list-item:hover > span{
+    width: 40px;
+}
+
+.list-item1{
+    margin-top: 24%;
+}
+
+.list-item1 >span{
+    display: block;
+    width: 0;
+    background: pink;
+    height: 2px;
+    transition: .4s;
+}
+.list-item:hover{
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.offering-list >li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.offering-list{
+    float: left;
+    transition: 0.4s;
+    width: 20%;
+    padding: 30px;
+    margin-top: 13%;
+}
+.offering-list >.library{
+    margin-top: 11%;
+}
+.join-us-list{
+    float: left;
+    width: 20%;
+    padding: 30px;
+    margin-top: 3%;
+}
+.join-us-list >li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.join-us-list > .membership{
+    margin-top: 11%;
+}
+.event-list{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 39%;
+    color: #36adc1;
+}
+
+.event-list > span{
+    display: block;
+    width: 23%;
+    transition: 0.5s;
+    height: 4px;
+    background-color: pink;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.past-event> li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.past-event> .past{
+    margin-top: 24%;
+}
+.past-event{
+    width: 56%;
+}
+
+.networking{
+    float: left;
+    width: 20%;
+    padding: 30px;
+    margin-top: 5%;
+}
+.networking >li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.networking >.members-profile{
+    margin-top: 16%;
+}
+.footer{
+    clear: both;
+    background-color: #b3ddef;
+    height: 150px;
+    border: 1px solid;
+    border-color: #b3ddef;
+    box-shadow: 20px 25px 40px 20px #756f6f;
+}
+.footer > li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 11.5px;
+    padding: 0% 1%;
+    float: left;
+    margin-left: 23px;
+    margin-top: 2%;
+}
+.dont-miss-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #57caf9;
+    margin: 21% 0%;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    border: 1px solid;
+    transition: .4s;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: #57caf9;    
+    outline: 0;
+    margin-left: -1%;
+}
+
+.dont-miss-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+.your-membership-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    margin: 7% 0%;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: .4s;
+    margin-left: -1%;
+}
+.your-membership-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+
+.two-buttons{
+    position: absolute;
+    bottom: 40px;
+}
+.feedback-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: .4s;
+    margin-left: -1%;
+}
+.feedback-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}

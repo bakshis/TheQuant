@@ -1,0 +1,316 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.tqiw-headings-and-logo{
+    margin: 2% 4%;
+    float: left;
+}
+.tqiw-logo{
+    width:8%;
+    float: left;
+}
+.headings{
+    float: left;
+    margin: 1% 2%;
+}
+.heading1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+.heading2{
+    width: 62%;
+}
+.main-heading{
+    position: absolute;
+    right: 42%;
+    top: 4%;
+}
+.main-heading1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2599c9;
+    width: 51%;
+    float: right;
+}
+.header-underline{
+    display: block;
+    width: 11%;
+    background: #b9ddeb;
+    height: 4px;
+    transition:.4s;    position: absolute;
+    top: 95%;border-radius: 20px;
+}
+.button{
+    position: absolute;
+    right: 13%;
+    top: 6%;
+}
+.two-more-buttons{
+    float: left;
+    height: 78.5%;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+.about-us-heading{
+    width: 80%;  
+    float: left;
+}
+.heading{
+    font-size: 41px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 6%;
+    margin-top: 19px;
+}
+.beliefs-description{
+    float: left;
+    width: 70%;
+    margin: 6% 6%;
+}
+.heading-beliefs{
+    text-transform: uppercase;
+    color: #41adda;
+    font-weight: bold;
+    font-size: 27px;
+}
+.description-beliefs{ 
+    padding-top: 34px;
+    width: 63%;  
+}
+.header-underline2{
+    display: block;
+    width: 29%;
+    transition: 0.5s;
+    height: 5px;
+    background-color: #bdd7e2;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.footer{
+    clear: both;
+    background-color: #b3ddef;
+    height: 150px;
+    border: 1px solid;
+    border-color: #b3ddef;
+    box-shadow: 20px 25px 40px 20px #756f6f;
+}
+.description11{
+    float: right;
+    width: 25%;
+}
+.description12{
+    width: 59%;
+}
+.header-underline7{
+    display: block;
+    width: 36%;
+    transition: 0.5s;
+    height: 5px;
+    background-color: #bdd7e2;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+.footer > li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 9px;
+    padding: 0% 1%;
+    float: left;
+    margin-left: 23px;
+    margin-top: 2%;
+}
+.dont-miss-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 47px;
+    color: white;
+    font-weight: 600;
+    background-color: #57caf9;
+    margin: 0% 70%;
+    border-radius: 50px 0px 0px 49px;
+    width: 205%;
+    font-size: 12px;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: #57caf9;
+    outline: 0;
+    transition: 0.4s;
+
+}
+
+.dont-miss-button:hover{
+    margin-left: 68%;
+    width: 207%;
+    border: 1px solid #ac9292;
+}
+.your-membership-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    margin: 7% 0%;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin-left: -1%;
+}
+.your-membership-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+    
+}
+
+.two-buttons{
+    position: absolute;
+    bottom: 13%;
+}
+.feedback-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 0px 50px 49px 0px;
+    width: 86%;
+    font-size: 12px;
+    outline: 0;
+    border: 1px solid;
+    box-shadow: 0px 6px 6px #bbb;
+    border-color: white;
+    outline: 0;
+    transition: 0.4s;
+    margin-left: -1%;
+}
+.feedback-button:hover{
+    width: 88%;
+    border: 1px solid #ac9292;
+}
+
+.about-us-description{
+    float: left;
+    background-color: #6cd4b4;
+    width: 100%;
+    height: 73px;
+    border: 1px solid;
+    border-color: #6cd4b4;
+    box-shadow: 0px 5px 5px #c6e5c6;
+
+}
+.about-us-list{
+    float: left;
+}
+.scrolling{
+    height: calc(100% - 240px);
+    overflow-y: scroll;
+    width: 80%;
+}
+.values-underline{
+    display: block;
+    width: 7%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 4px;
+}
+.values-description{
+    float: left;
+    width: 23%;
+    margin-top: 4%;
+}
+.description-underline{
+    display: block;
+    width: 32%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+.description-2{
+    float: left;
+    width: 49%;
+    font-size: 23px;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+.description-underline-2{
+    display: block;
+    width: 15%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+.description-3{
+    float: left;
+    margin-left: 26%;
+    margin-bottom: 9%;
+}
+.description-4{
+    width: 21%;
+    float: left;
+}
+.description-underline-3{
+    display: block;
+    width: 36%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.description-5 {
+    float: left;
+    width: 22%;
+    margin-left: 8%;
+}
+
+.description-underline-4 {
+    display: block;
+    width: 31%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.description-6 {
+    float: left;
+    width: 22%;
+    margin-left: 9%;
+}
+
+.description-underline-5 {
+    display: block;
+    width: 28%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
