@@ -16,3 +16,29 @@ z-index: -1;
     width: 80%;
     padding: 30px; color:#fff; font-size:46px; font-weight:600;background:#b783e6;opacity: 0.5;
 }
+.life-events-list:first-child{
+  margin: 0;
+}
+.life-events-list{
+  margin: 0;
+  padding: 0;
+}
+.life-events-list ul li{
+  list-style-type: none;
+  padding:30px 0 30px 30px ;
+}
+.life-events-list ul li a{
+color:#000;
+}
+.life-events-list ul li a div{
+padding:30px 0 30px 30px ;
+}
+
+.life-events-list ul li a:hover{
+  color:#b783e6;
+  cursor: pointer;
+  text-decoration: none;
+}
+.bold-text{
+  font-weight: bolder;
+}
