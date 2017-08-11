@@ -1,7 +1,11 @@
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
+
 }
+*/
+/*
 .tqiw-logo-and-heading{
     float: left; 
     width: 100%;
@@ -26,6 +30,8 @@ body{
 .tqiw-heading2{
     width: 62%;
 }
+*/
+/*
 .tqiw-main-heading{
     position: absolute;
     right: 42%;
@@ -38,6 +44,8 @@ body{
     width: 51%;
     float: right;
 }
+*/
+/*
 .header-underline{
     display: block;
     width: 11%;
@@ -48,11 +56,14 @@ body{
     top: 95%;
     border-radius: 20px;
 }
+*/
+/*
 .button{
     position: absolute;
     right: 13%;
     top: 6%;
 }
+*/
 .bottons-zone{
     float: left;
     height: 5500px;
@@ -65,6 +76,7 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .allbuttons{
     float: left;
     height: 78.8%;
@@ -77,10 +89,14 @@ body{
     padding-left: 0px;
     position: relative;
 }
+*/
+/*
 .offering{
     width: 80%;  
     float: left;
 }
+*/
+/*
 .offering-heading{
     font-size: 40px;
     text-transform: uppercase;
@@ -90,14 +106,18 @@ body{
     margin-left: 5%;
     margin-top: 19px;
 }
+*/
 
+/*
 .description{
     float: right;
     width: 50%;
     margin-right: 23%;
 }
+*/
 
 
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -106,6 +126,8 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -116,6 +138,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -140,6 +164,8 @@ body{
     width: 207%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -163,11 +189,15 @@ body{
     width: 88%;
     border: 1px solid #ac9292;  
 }
+*/
 
+/*
 .two-buttons{
     position: absolute;
     bottom: 11%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -190,7 +220,9 @@ body{
     width: 88%;
     border: 1px solid #ac9292; 
 }
+*/
 
+/*
 .about-us-description{
     float: left;
     background-color: #82d2f3;
@@ -201,7 +233,9 @@ body{
     box-shadow: -1px 3px 8px #bfb5b5;
 
 }
+*/
 
+/*
 .link{
     color: #739073;
     font-size: 11px;
@@ -210,6 +244,7 @@ body{
     color: #739073;
     text-decoration: none;   
 }
+*/
 
 
 .founders-heading {
@@ -286,9 +321,11 @@ body{
 }
 
 
+/*
 .heading-2 {
     margin-top: 13%;
 }
+*/
 
 .gallery-heading-2-underline {
     display: block;

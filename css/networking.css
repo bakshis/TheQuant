@@ -1,7 +1,10 @@
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+*/
+/*
 .tqiw-logo-and-heading{
     float: left;
     width: 100%;
@@ -36,6 +39,7 @@ body{
     margin-top: 2.6%;
     margin-left: 1%;
 }
+*/
 .main-heading1{
     font-weight: 600;
     font-size: 18px;
@@ -43,6 +47,7 @@ body{
     margin: 0;
     float: left;
 }
+/*
 .header-underline{
     display: block;
     width: 27%;
@@ -52,6 +57,7 @@ body{
     border-radius: 20px;
     margin-top: 2%;
 }
+*/
 .buttons{
     position: absolute;
     right: 0;
@@ -70,10 +76,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .networking{
     width: 80%;  
     float: left;
 }
+*/
 .heading-networking{
     font-size: 38px;
     text-transform: uppercase;
@@ -94,11 +102,13 @@ body{
     font-weight: bold;
     font-size: 24px;
 }
+/*
 .description{
     float: right;
     width: 40%;
     margin-right: 34%;
 }
+*/
 .name{
     font-weight: bold;
 }
@@ -106,11 +116,13 @@ body{
     font-size: 10px;
     color: #d2b53d;
 }
+/*
 .description2{
     margin: 0 0 0; 
     width: 96%;
     padding-top: 10px;
 }
+*/
 .quotation{
     color: #d2b53d;
     font-size: 17px;
@@ -128,12 +140,14 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .description3{
     float: left;
     width: 40%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
 .name2{
     font-weight: bold;
 }
@@ -163,12 +177,14 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .description5{
     float: left;
     width: 40%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
 .name3{
     font-weight: bold;
 }
@@ -198,6 +214,7 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .description7{
     float: right;
     width: 40%;
@@ -205,6 +222,7 @@ body{
     margin-top: 3%;
     margin-bottom: 8%;
 }
+*/
 .name4{
     font-weight: bold;
 }
@@ -234,6 +252,7 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -242,6 +261,8 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -252,6 +273,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -259,7 +282,7 @@ body{
     color: white;
     font-weight: 600;
     background-color: #57caf9;
-/*    margin: 0% 70%;*/
+    margin: 0% 70%;
     border-radius: 50px 0px 0px 49px;
     width: 86%;
     font-size: 12px;
@@ -276,6 +299,8 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -300,11 +325,15 @@ body{
     border: 1px solid #ac9292;
     
 }
+*/
 
+/*
 .two-buttons{
     position: absolute;
     bottom: 30%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -327,7 +356,9 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
 
+/*
 .about-us-description{
     float: left;
     background-color: #dac362;
@@ -338,9 +369,13 @@ body{
     box-shadow: -1px 3px 8px #bfb5b5;
 
 }
+*/
+/*
 .about-us-list{
     float: left;
 }
+*/
+/*
 
 .link{
     color: #ef9877;
@@ -350,14 +385,6 @@ body{
     color: #ef9877;
     text-decoration: none;   
 }
+*/
 
-.tqiw-heading {
-    margin: 2% 4%;
-    float: left;
-    width: 24%;
-}
 
-.tqiw-2headings {
-    float: left;
-    margin: 1% 2%;
-}

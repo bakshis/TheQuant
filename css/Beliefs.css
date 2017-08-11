@@ -1,7 +1,10 @@
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+*/
+/*
 .tqiw-headings-and-logo{
     margin: 2% 4%;
     float: left;
@@ -10,18 +13,23 @@ body{
     width:25%;
     float: left;
 }
+*/
+/*
 .headings{
     float: left;
     margin: 1% 2%;
 }
+*/
 .heading1{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
 }
+/*
 .heading2{
     width: 62%;
 }
+*/
 .main-heading{
     position: absolute;
     right: 42%;
@@ -34,6 +42,7 @@ body{
     margin: 0;
     float: left;
 }
+/*
 .header-underline{
     display: block;
     width: 27%;
@@ -43,12 +52,15 @@ body{
     border-radius: 20px;
     margin-top: 2%;
 }
+*/
+/*
 .button{
     position: absolute;
     right: 0;
     left: 81%;
     top: 5%;
 }
+*/
 .two-more-buttons{
     float: left;
     height: 100%;
@@ -65,6 +77,7 @@ body{
     width: 80%;  
     float: left;
 }
+/*
 .heading{
     font-size: 40px;
     text-transform: uppercase;
@@ -74,6 +87,7 @@ body{
     margin-left: 6%;
     margin-top: 21px;
 }
+*/
 .beliefs-description{
     float: left;
     width: 22%;
@@ -88,11 +102,13 @@ body{
     font-size: 27px
 }
 
+/*
 .yoga-image{
     float: left;
     width: 100%;
     margin-top: 3%;
 }
+*/
 .image-yoga{
     float: left;
     width: 100%;
@@ -105,6 +121,7 @@ body{
 }
 
 
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -113,7 +130,9 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
 
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -124,6 +143,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -131,7 +152,7 @@ body{
     color: white;
     font-weight: 600;
     background-color: #57caf9;
-    /* margin: 0% 70%; */
+     margin: 0% 70%; 
     border-radius: 50px 0px 0px 49px;
     width: 86%;
     font-size: 12px;
@@ -147,6 +168,8 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -170,11 +193,15 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
 
+/*
 .two-buttons{
     position: absolute;
     bottom: 30%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -197,6 +224,8 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 
 .about-us-description{
     float: left;
@@ -208,26 +237,9 @@ body{
     box-shadow: 0px 5px 5px #c6e5c6;
 
 }
+*/
 .grid-1 {
     float: left;
     margin-top: 20%;
 }
 
-.tqiw-logo-and-heading {
-    float: left; 
-    width: 100%;
-}
-
-.tqiw-heading {
-    margin: 2% 4%;
-    float: left;
-    width: 24%;
-
-}
-
-.tqiw-main-heading {
-    float: left;
-    width: 25%;
-    margin-top: 2.6%;
-    margin-left: 1%;
-}

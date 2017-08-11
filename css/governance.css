@@ -1,27 +1,26 @@
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.tqiw-headings-and-logo{
-    margin: 2% 4%;
-    float: left;
-}
-.tqiw-logo{
-    width:8%;
-    float: left;
-}
+*/
+/*
+
 .headings{
     float: left;
     margin: 1% 2%;
 }
+*/
 .heading1{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
 }
+/*
 .heading2{
     width: 62%;
 }
+*/
 .main-heading{
     position: absolute;
     right: 42%;
@@ -34,19 +33,24 @@ body{
     width: 51%;
     float: right;
 }
+/*
 .header-underline{
     display: block;
     width: 11%;
     background: #b9ddeb;
     height: 4px;
     transition:.4s;    position: absolute;
-    top: 95%;border-radius: 20px;
+    top: 95%;
+    border-radius: 20px;
 }
+*/
+/*
 .button{
     position: absolute;
     right: 13%;
     top: 6%;
 }
+*/
 .two-more-buttons{
     float: left;
     height: 78%;
@@ -63,6 +67,7 @@ body{
     width: 80%;  
     float: left;
 }
+/*
 .heading{
     font-size: 40px;
     text-transform: uppercase;
@@ -72,6 +77,7 @@ body{
     margin-left: 6%;
     margin-top: 21px;
 }
+*/
 .beliefs-description{
     float: left;
     width: 22%;
@@ -95,6 +101,7 @@ body{
 }
 
 
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -103,7 +110,9 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
 
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -114,6 +123,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -138,6 +149,8 @@ body{
     width: 207%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -161,11 +174,15 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
 
+/*
 .two-buttons{
     position: absolute;
     bottom: 11%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -188,7 +205,9 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
 
+/*
 .about-us-description{
     float: left;
     background-color: #6cd4b4;
@@ -199,6 +218,7 @@ body{
     box-shadow: 0px 5px 5px #c6e5c6;
 
 }
+*/
 .grid-1 {
     float: left;
     margin-top: 20%;

@@ -1,7 +1,11 @@
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
+
 }
+*/
+/*
 .tqiw-logo-and-heading{
     float: left; 
     width: 100%;
@@ -31,6 +35,8 @@ body{
     right: 42%;
     top: 4%;
 }
+*/
+/*
 .heading{
     font-weight: 600;
     font-size: 18px;
@@ -38,6 +44,8 @@ body{
     width: 51%;
     float: right;
 }
+*/
+/*
 .header-underline{
     display: block;
     width: 11%;
@@ -48,11 +56,14 @@ body{
     top: 95%;
     border-radius: 20px;
 }
+*/
+/*
 .button{
     position: absolute;
     right: 13%;
     top: 6%;
 }
+*/
 .bottons-zone{
     float: left;
     height: 5500px;
@@ -65,6 +76,7 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .allbuttons{
     float: left;
     height: 78.8%;
@@ -77,10 +89,14 @@ body{
     padding-left: 0px;
     position: relative;
 }
+*/
+/*
 .offering{
     width: 80%;  
     float: left;
 }
+*/
+/*
 .offering-heading{
     font-size: 38px;
     text-transform: uppercase;
@@ -90,33 +106,47 @@ body{
     margin-left: 8%;
     margin-top: 19px;
 }
+*/
+/*
 .therapies{
     float: left;
     margin: 4% 8%;
     width: 47%;
 }
+*/
+/*
 .therapies-heading{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
     font-size: 24px;
 }
+*/
+/*
 .therapies-description{
     padding-top: 7%;
     font-size: 13px;
     margin: 0;
 }
+*/
+/*
 .description{
     float: right;
     width: 50%;
     margin-right: 23%;
 }
+*/
+/*
 .description-heading{
     font-weight: bold;
 }
+*/
+/*
 .description2{
     margin: 0 0 0;
 }
+*/
+/*
 .description-underline{
     display: block;
     height: 4px;
@@ -125,87 +155,123 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+*/
+/*
 .description3{
     float: right;
     width: 50%;
     margin-right: 23%;
     margin-top: 4%;
 }
+*/
+/*
 .heading2{
     font-weight: bold;
 }
+*/
 .description4{
     margin: 0 0 0;
 }
+/*
 .images{
     float: left;
     width: 80%;
     padding-left: 5%;
     margin-top: 4%;
 }
+*/
+/*
 .image-fruit{
     float: left;
     width: 50%;
 }
+*/
+/*
 .image1{
     width: 83%;
 }
+*/
+/*
 .image-massage{
     float: left;
     width: 50%;
 }
+*/
+/*
 .image2{
     width: 90%;
 }
+*/
+/*
 .description5{
     float: left;
     width: 51%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
+/*
 .description6{
     margin: 0 0 0;
 }
+*/
+/*
 .description7{
     float: right;
     width: 55%;
     margin-right: 16%;
     margin-top: 4%;
 }
+*/
+/*
 .heading5{
     font-weight: bold;
 }
+*/
 .description8{
     margin: 0 0 0;
 }
+/*
 .yoga-image{
     float: left;
     width: 100%;
     margin-top: 3%;
 }
+*/
+/*
 .yoga-image1{
     float: left;
     width: 100%;
     height: 330px;
 }
+*/
+/*
 .description9{
     float: left;
     width: 50%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
+/*
 .description10{
     margin: 0 0 0;
 }
+*/
+/*
 .description11{
     float: left;
     width: 54%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
+/*
 .description12{
     margin: 0 0 0;
 }
+*/
+/*
 .description13{
     float: right;
     width: 50%;
@@ -213,41 +279,57 @@ body{
     margin-top: 4%;
     padding-bottom: 7%;
 }
+*/
+/*
 .description14{
     margin: 0 0 0;
 }
+*/
+/*
 .description16{
     float: left;
     width: 57%;
     margin-left: 12%;
     margin-top: 4%;
 }
-.description15{
-    float: right;
-    width: 55%;
-    margin-right: 16%;
-    margin-top: 4%;
-}
+*/
+/*
+    .description15{
+        float: right;
+        width: 55%;
+        margin-right: 16%;
+        margin-top: 4%;
+    }
+*/
+/*
 .description17{
     margin: 0 0 0;
     width: 90%;
 }
+*/
+/*
 .description18{
     float: left;
     width: 54%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
+/*
 .yoga2{
     float: left;
     width: 100%;
     margin-top: 3%;
 }
+*/
+/*
 .yoga-image2{
     float: left;
     width: 100%;
     height: 330px;
 }
+*/
+/*
 .description20{
     margin: 0 0 0;
     float: right;
@@ -255,6 +337,8 @@ body{
     margin-right: 16%;
     margin-top: 4%;
 }
+*/
+/*
 .description19{
     margin-bottom: 7%;
     float: left;
@@ -262,6 +346,8 @@ body{
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -270,6 +356,8 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -280,6 +368,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -304,6 +394,8 @@ body{
     width: 207%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -328,11 +420,15 @@ body{
     border: 1px solid #ac9292;
     
 }
+*/
 
+/*
 .two-buttons{
     position: absolute;
     bottom: 13%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -355,7 +451,9 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
 
+/*
 .about-us-description{
     float: left;
     background-color: #82d2f3;
@@ -366,10 +464,14 @@ body{
     box-shadow: -1px 3px 8px #bfb5b5;
 
 }
+*/
+/*
 .about-us-list{
     float: left;
 }
+*/
 
+/*
 .link{
     color: #739073;
     font-size: 11px;
@@ -378,4 +480,5 @@ body{
     color: #739073;
     text-decoration: none;   
 }
+*/
 
