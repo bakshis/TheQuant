@@ -20,16 +20,19 @@ body{
     margin: 1% 2%;
 }
 */
+/*
 .heading1{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
 }
+*/
 /*
 .heading2{
     width: 62%;
 }
 */
+/*
 .main-heading{
     position: absolute;
     right: 42%;
@@ -42,6 +45,7 @@ body{
     margin: 0;
     float: left;
 }
+*/
 /*
 .header-underline{
     display: block;
@@ -61,6 +65,7 @@ body{
     top: 5%;
 }
 */
+/*
 .two-more-buttons{
     float: left;
     height: 100%;
@@ -73,19 +78,22 @@ body{
     padding-left: 0px;
     position: relative;
 }
+*/
+/*
 .about-us-heading{
     width: 80%;  
     float: left;
 }
+*/
 /*
-.heading{
-    font-size: 40px;
+.about-us-heading-2{
+    font-size: 38px;
     text-transform: uppercase;
     font-weight: 600;
     color: white;
     float: left;
-    margin-left: 6%;
-    margin-top: 21px;
+    margin-left: 5%;
+    margin-top: 2.3%;
 }
 */
 .beliefs-description{
@@ -97,28 +105,22 @@ body{
 }
 .heading-beliefs{
     text-transform: uppercase;
-    color: #57caf9;
+    color: #30a7d8;
     font-weight: bold;
-    font-size: 27px
+    font-size: 26px
 }
 
-/*
-.yoga-image{
+.yoga-image-1{
     float: left;
     width: 100%;
     margin-top: 3%;
 }
-*/
 .image-yoga{
     float: left;
     width: 100%;
     height: 330px;
 }
-.image-yoga{
-    float: left;
-    width: 100%;
-    height: 330px;
-}
+
 
 
 /*
@@ -225,16 +227,16 @@ body{
     border: 1px solid #ac9292;
 }
 */
-/*
 
+/*
 .about-us-description{
     float: left;
-    background-color: #6cd4b4;
+    background-color: #89c9e2;
     width: 100%;
     height: 85px;
     border: 1px solid;
-    border-color: #6cd4b4;
-    box-shadow: 0px 5px 5px #c6e5c6;
+    border-color: #89c9e2;
+    box-shadow: 0px 5px 5px #89c9e2;
 
 }
 */
@@ -243,3 +245,97 @@ body{
     margin-top: 20%;
 }
 
+
+.beliefs-underline {
+    display: block;
+    width: 33%;
+    height: 4px;
+    background-color: #dbdbdc;
+    margin-top: 2%;
+    border-radius: 150px;
+}
+
+.trust-underline {
+    display: block;
+    width: 11%;
+    height: 4px;
+    background-color: #dbdbdc;
+    margin-left: 3.5%;
+    margin-top: 1%;
+    border-radius: 150px;
+}
+
+.trust-heading {
+    float: left;
+    padding-top: 15%;
+    padding-left: 3.5%;
+}
+
+.trust-bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.three-grids {
+    float: left;
+    width: 78%;
+}
+
+.grid1 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 7%;
+}
+
+.grid-description {
+    float: left;
+    width: 80%;
+}
+
+.grid2 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 3%;
+}
+
+.grid3 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 2%;
+}
+
+.smalls-grids {
+    float: left;
+    margin-left: 23%;
+    margin-bottom: 10%;
+}
+
+.small-grid1 {
+    float: left;
+    width: 27%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 5%;
+}
+
+.grid-description1 {
+    float: left;
+    width: 79%;
+}
+
+.grid-description2 {
+    float: left;
+    width: 77%;
+}
+
+.yoga-image-2 {
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+}

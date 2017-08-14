@@ -70,10 +70,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .about-us-heading{
     width: 80%;  
     float: left;
 }
+*/
 /*
 .heading{
     font-size: 41px;
@@ -85,17 +87,21 @@ body{
     margin-top: 19px;
 }
 */
+/*
 .beliefs-description{
     float: left;
     width: 70%;
     margin: 5% 6%;
 }
+*/
+/*
 .heading-beliefs{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
     font-size: 25px;
 }
+*/
 .description-beliefs{ 
     padding-top: 34px;
     width: 63%;  
@@ -267,11 +273,13 @@ body{
     border-radius: 120px;
     margin-top: 4px;
 }
+/*
 .values-description{
     float: left;
     width: 18%;
     margin-top: 4%;
 }
+*/
 /*
 .description-underline{
     display: block;
@@ -283,9 +291,11 @@ body{
     margin-top: 6px;
 }
 */
-.description-2{
+.intentional-description3{
     float: left;
-    width: 19%;
+    width: 16%;
+    margin-top: 3%;
+    margin-left: 4%;
 }
 .description-underline-2{
     display: block;
@@ -296,20 +306,21 @@ body{
     border-radius: 120px;
     margin-top: 6px;
 }
+/*
 .heading-statement {
     margin: 6% 6%;
     height: 0;
 }
+*/
 
-.heading-statement {
-    
-}
+
 
 .description-3 {
     float: left;
     width: 19%;
 }
 
+/*
 .description-underline-3 {
     display: block;
     width: 32%;
@@ -319,24 +330,32 @@ body{
     border-radius: 120px;
     margin-top: 6px;
 }
+*/
 
+/*
 .first-description{
     float: left;
     padding-top: 9%;
     padding-left: 16%;
     padding-bottom: 26%;
 }
+*/
 
+/*
 .second-description {
     float: left;
     padding-top: 10%;
     padding-left: 20%;
 }
+*/
 
-.description-start {
+.intentional-description0{
     float: left;
-    
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 6%;
 }
+/*
 
 .image {
     
@@ -345,11 +364,8 @@ body{
     height: 330px;
 
 }
+*/
 
-.heading-statement-2 {
-    float: left;
-    margin: 6% 6%;
-}
 
 .values-description-2 {
     float: left;
@@ -377,26 +393,158 @@ body{
     margin-top: 6px;
 }
 
+/*
 .third-description {
     float: left;
     padding-top: 18%;
     padding-bottom: 26%;
 }
+*/
 
+/*
 .fourth-description {
     float: left;
     padding-top: 18%;
     padding-bottom: 26%;
 }
+*/
 
+/*
 .description-4 {
     float: left;
     width: 23%;
     margin-left: 12%;
 }
+*/
 
+/*
 .description-5 {
     float: left;
     width: 23%;
     margin-left: 7%;
+}
+*/
+
+.intentional-heading2 {
+    text-transform: uppercase;
+    color: #30a7d8;
+    font-weight: bold;
+    font-size: 26px
+}
+
+.intentional-description2 {
+/*
+    float: left;
+    width: 16%;
+    margin-top: 3%;
+*/
+}
+
+.intentional-description4 {
+    
+}
+
+.intentional-description5 {
+    float: left;
+    width: 16%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.intentional-description6 {
+/*
+    float: left;
+    margin-top: 3%;
+    width: 20%;
+    margin-left: 4%;
+*/
+}
+
+.intentional-underline {
+    display: block;
+    width: 4.5%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+/*    margin-top: 3px;*/
+}
+
+.intentional-underline2 {
+    display: block;
+    height: 4px;
+    width: 31%;
+    background-color: #dfdfdf; 
+    border-radius: 120px;
+    margin-top: 4px;
+}
+
+.intentional-underline3 {
+    display: block;
+    width: 32%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+/*
+.intentional-description9{
+    float: left;
+    width: 16%;
+    margin-top: 3%;
+}
+*/
+
+.intentional-description7 {
+    float: left;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+.intentional-description1 {
+    float: left;
+    width: 16%;
+    margin-top: 3%;
+}
+
+.intentional-description8 {
+    float: left;
+    width: 20%;
+    margin-top: 4%; 
+}
+
+.intentional-underline4 {
+    display: block;
+    width: 36%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.intentional-underline5 {
+    display: block;
+    width: 32%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.intentional-description9 {
+    float: left;
+    width: 22%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.intentional-description11 {
+    float: left;
+    width: 22%;
+    margin-left: 7%;
+    margin-top: 4%;
 }

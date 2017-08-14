@@ -70,10 +70,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .about-us-heading{
     width: 80%;  
     float: left;
 }
+*/
 /*
 .heading{
     font-size: 41px;
@@ -85,17 +87,21 @@ body{
     margin-top: 19px;
 }
 */
+/*
 .beliefs-description{
     float: left;
     width: 70%;
     margin: 6% 6%;
 }
+*/
+/*
 .heading-beliefs{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
     font-size: 27px;
 }
+*/
 .description-beliefs{ 
     padding-top: 34px;
     width: 63%;  
@@ -269,10 +275,11 @@ body{
     border-radius: 120px;
     margin-top: 4px;
 }
-.values-description{
+.values-description3{
     float: left;
-    width: 23%;
+    width: 100%;
     margin-top: 4%;
+    margin-left: 5%;
 }
 /*
 .description-underline{
@@ -350,4 +357,138 @@ body{
     background-color: #dfdfdf;
     border-radius: 120px;
     margin-top: 6px;
+}
+
+/*
+.values-description0 {
+    width: 80%;  
+    float: left;
+}
+*/
+
+/*
+.values-description1 {
+    float: left;
+    background-color: #89c9e2;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #89c9e2;
+    box-shadow: 0px 5px 5px #89c9e2;
+}
+*/
+
+/*
+.values-description2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 6%;
+    margin-top: 14px;
+}
+*/
+
+.values-heading {
+    text-transform: uppercase;
+    color: #30a7d8;
+    font-weight: bold;
+    font-size: 26px
+}
+
+.values-underline0 {
+    display: block;
+    width: 4.5%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 4px;
+}
+
+.values-underline1 {
+    display: block;
+    height: 4px;
+    width: 32%;
+    background-color: #e2d3ce; 
+    border-radius: 120px;
+    margin-top: 4px;
+}
+
+.values-description5 {
+    float: left;
+    width: 30%;
+    font-size: 23px;
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.values-underline2 {
+    display: block;
+    width: 32%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.values-description6 {
+    float: left;
+    width: 73%;
+    margin: 5% 25%;
+}
+
+.values-description7 {
+    width: 21%;
+    float: left;
+}
+
+.values-underline3 {
+    display: block;
+    width: 36%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.values-description8 {
+    float: left;
+    width: 22%;
+    margin-left: 8%;
+}
+
+.values-underline4 {
+    display: block;
+    width: 32%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.values-description9 {
+    float: left;
+    width: 22%;
+    margin-left: 9%;
+}
+
+.values-underline5 {
+    display: block;
+    width: 32%;
+    color: #e2d3ce;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 120px;
+    margin-top: 6px;
+}
+
+.values-description4 {
+    float: left;
+    width: 16%;
+    margin-top: 2%;
 }

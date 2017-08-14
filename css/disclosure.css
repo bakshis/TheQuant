@@ -63,10 +63,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .about-us-heading{
     width: 80%;  
     float: left;
 }
+*/
 /*
 .heading{
     font-size: 41px;
@@ -78,17 +80,21 @@ body{
     margin-top: 19px;
 }
 */
+/*
 .beliefs-description{
     float: left;
     width: 70%;
     margin: 5% 6%;
 }
+*/
+/*
 .heading-beliefs{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
     font-size: 25px;
 }
+*/
 .description-beliefs{ 
     padding-top: 34px;
     width: 63%;  
@@ -251,6 +257,7 @@ body{
     overflow-y: scroll;
     width: 80%;
 }
+/*
 .values-underline{
     display: block;
     width: 7%;
@@ -260,23 +267,28 @@ body{
     border-radius: 120px;
     margin-top: 4px;
 }
+*/
 
+/*
 .heading-statement {
     margin: 6% 6%;
     height: 0;
 }
+*/
+/*
 .click {
-/*    float: left;*/
+    float: left;
     margin-top: 3.5%;
     font-size: 12px;
     float: left;
 }
+*/
 .first-description {
     float: left;
     margin-left: 24%;
     margin-top: 3%;
     font-weight: bold;
-    width: 20%;
+    width: 22%;
     cursor: pointer;
 }
 .link-underline {
@@ -321,10 +333,10 @@ body{
     border-radius: 120px;
     margin-top: 4px;
 }
-.link-2 {
+.link-2-2 {
     margin-top: 16%;
 }
-.link-2:hover{
+.link-2-2:hover{
     color: #b3c893;
 }
 .link-underline-4 {
@@ -337,12 +349,14 @@ body{
     margin-top: 4px;
 }
 .third-description {
+/*
     float: left;
     margin-top: 3%;
     font-weight: bold;
     width: 20%;
     margin-left: 4%;
     cursor: pointer;
+*/
 }
 .link-underline-5 {
     display: block;
@@ -372,10 +386,12 @@ body{
     color: #b3c893;
 }
 
+/*
 .tqiw-disclosures {
     float: left;
     width: 100%;
 }
+*/
 
 .linke-1{
     margin-bottom: 85%;
@@ -385,3 +401,79 @@ body{
     color: #b3c893;
 }
 
+
+/*
+.disclosure {
+    width: 80%;  
+    float: left;
+}
+*/
+
+/*
+.disclosure-description {
+    float: left;
+    background-color: #89c9e2;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #89c9e2;
+    box-shadow: 0px 5px 5px #89c9e2;
+}
+*/
+
+/*
+.disclosure-heading {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.3%;
+}
+*/
+
+/*
+.please-click {
+    margin-top: 3.5%;
+    font-size: 12px;
+    float: left;
+}
+*/
+
+.Disclosure {
+    
+}
+
+.disclosure-2 {
+    float: left;
+    margin: 4% 5%;
+    width: 45%;
+}
+
+.disclosure-heading-2 {
+    text-transform: uppercase;
+    color: #5baccc;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.click-to-view {
+    padding-top: 7%;
+    font-size: 12px;
+    margin: 0;
+}
+
+.link-0-0, .linke-1-1{
+    width: 75%;
+}
+.link-0-0:hover{
+    color: #b3c893;
+}
+
+.linke-1-1 {
+    margin-bottom: 85%;
+}
+.linke-1-1:hover{
+    color: #b3c893;;
+}

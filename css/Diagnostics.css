@@ -107,47 +107,36 @@ body{
     margin-top: 19px;
 }
 */
-/*
-.therapies{
+.diagnostics-description-2{
     float: left;
-    margin: 4% 8%;
+    margin: 4% 5%;
     width: 47%;
 }
-*/
 /*
-.therapies-heading{
+.diagnostics-heading-2{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
     font-size: 24px;
 }
 */
-/*
-.therapies-description{
+.diagnostics-description-3{
     padding-top: 7%;
     font-size: 13px;
     margin: 0;
 }
-*/
-/*
-.description{
+.diagnostics-description-4{
     float: right;
     width: 50%;
-    margin-right: 23%;
+    margin-right: 25%;
 }
-*/
-/*
-.description-heading{
+.diagnostics-heading-3{
     font-weight: bold;
 }
-*/
-/*
-.description2{
+.diagnostics-heading-4{
     margin: 0 0 0;
 }
-*/
-/*
-.description-underline{
+.diagnostics-underline{
     display: block;
     height: 4px;
     width: 10%;
@@ -155,7 +144,6 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
-*/
 /*
 .description3{
     float: right;
@@ -202,14 +190,12 @@ body{
     width: 90%;
 }
 */
-/*
-.description5{
+.diagnostics-heading-5{
     float: left;
     width: 51%;
     margin-left: 12%;
     margin-top: 4%;
 }
-*/
 /*
 .description6{
     margin: 0 0 0;
@@ -454,7 +440,7 @@ body{
 */
 
 /*
-.about-us-description{
+.diagnostics-description{
     float: left;
     background-color: #82d2f3;
     width: 100%;
@@ -471,14 +457,71 @@ body{
 }
 */
 
-/*
-.link{
+.link-2{
     color: #739073;
     font-size: 11px;
 }
-.link:hover{
+.link-2:hover{
     color: #739073;
     text-decoration: none;   
 }
+
+
+/*
+.diagnostics-heading{
+        font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 2.3%;
+}
 */
+
+/*
+.diagnostics {
+    width: 80%;
+    float: left;
+}
+*/
+
+.bold-sentence {
+    font-size: 12px;
+}
+
+.diagnostics-heading-6 {
+    font-weight: bold;
+}
+
+.diagnostics-description-6 {
+    margin: 0 0 0; 
+    width: 96%;
+    padding-top: 10px;
+}
+
+.diagnostics-description-7 {
+    float: left;
+    width: 54%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+.diagnostics-description-8 {
+    margin: 0 0 0;
+    width: 93%;
+}
+
+.diagnostics-description-9 {
+    float: left;
+    width: 51%;
+    margin-left: 24%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.diagnostics-description-10 {
+/*    margin: 0 0 0;*/
+}
+
 

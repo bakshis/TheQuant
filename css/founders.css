@@ -279,7 +279,7 @@ body{
 .founders-underline {
     display: block;
     width: 36%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -288,7 +288,7 @@ body{
 .founders-underline2 {
     display: block;
     width: 48%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -325,7 +325,7 @@ body{
 .description-undeline {
     display: block;
     width: 9.5%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -345,7 +345,7 @@ body{
 .rajit-description-underline {
     display: block;
     width: 9%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -376,15 +376,16 @@ body{
 .members-description {
     float: left;
     margin-top: 4%;
+    width: 79%;
 }
 
 .members-description-underline {
     display: block;
-    width: 22.3%;
+    width: 30%;
     background: #e0e1e1;
     height: 4px;
     border-radius: 20px;
-    margin-top: 4px;
+    margin-top: 4%;
 }
 
 .current-founders {
@@ -455,4 +456,8 @@ body{
         .feedback-button:hover{
             width: 95%;
         }
+}
+
+.col-sm-3 {
+    margin-right: 2.5%;
 }

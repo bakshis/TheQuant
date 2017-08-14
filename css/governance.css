@@ -63,10 +63,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .about-us-heading{
     width: 80%;  
     float: left;
 }
+*/
 /*
 .heading{
     font-size: 40px;
@@ -78,27 +80,33 @@ body{
     margin-top: 21px;
 }
 */
+/*
 .beliefs-description{
     float: left;
     width: 22%;
-/*    margin: 6% 9%;*/
+    margin: 6% 9%;
         padding-left: 6%;
     padding-top: 6%;
 }
+*/
+/*
 .heading-beliefs{
     text-transform: uppercase;
     color: #57caf9;
     font-weight: bold;
     font-size: 24px;
 }
+*/
 
 
 
+/*
 .image-yoga{
     float: left;
     width: 100%;
     height: 330px;
 }
+*/
 
 
 /*
@@ -219,11 +227,13 @@ body{
 
 }
 */
+/*
 .grid-1 {
     float: left;
     margin-top: 20%;
     width: 98%;
 }
+*/
 
 
 
@@ -260,6 +270,7 @@ body{
     border-radius: 150px;
 }
 
+/*
 .grid1 {
     display: block;
     width: 33%;
@@ -268,10 +279,11 @@ body{
     margin-top: 3%;
     border-radius: 150px;
 }
+*/
 
 .content {
     float: left;
-    padding-top: 15%; 
+    padding-top: 14%; 
     padding-left: 3.5%;
     width: 45%;
 }
@@ -290,26 +302,31 @@ body{
     width: 78%;
 }
 
+/*
 .grid2 {
     float: left;
     width: 26%;
     padding-top: 4.5%;
-    /* padding-left: 2%; */
+     padding-left: 2%; 
     margin-left: 5%;
+    
 }
+*/
 
 .main-content2 {
     float: left;
     width: 80%;
 }
 
+/*
 .grid3 {
     float: left;
     width: 26%;
     padding-top: 4.5%;
-    /* padding-left: 2%; */
+     padding-left: 2%; 
     margin-left: 3%;
 }
+*/
 
 .main-content3 {
     float: left;
@@ -328,4 +345,77 @@ body{
 .main-content4 {
     float: left;
     width: 79%;
+}
+
+.governnce-description1 {
+        float: left;
+    width: 22%;
+    /* margin: 6% 9%; */
+    padding-left: 5%;
+    padding-top: 6%;
+}
+
+.governance-heading2 {
+    text-transform: uppercase;
+    color: #30a7d8;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+}
+
+.governance-underline{
+    display: block;
+    width: 27%;
+    height: 4px;
+    background-color: #dbdbdc;
+    margin-top: 2%;
+    border-radius: 150px;
+}
+
+.governance-grid {
+    float: left;
+    margin-top: 16%;
+    width: 94%;
+}
+
+.governance-underline2 {
+    display: block;
+    width: 13%;
+    height: 4px;
+    background-color: #dbdbdc;
+    margin-top: 1%;
+    border-radius: 150px;
+}
+
+.governance-grid2 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 4.5%;
+}
+
+.governance-grid3 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 2%;
+}
+
+.governance-grid4 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 2%;
+}
+
+.G-G-underline {
+    display: block;
+    width: 33%;
+    height: 4px;
+    background-color: #dbdbdc;
+    margin-top: 2%;
+    border-radius: 150px;
 }

@@ -40,10 +40,13 @@
     position: relative;
 }
 */
+/*
 .offering{
     width: 80%;  
     float: left;
 }
+*/
+/*
 .offering-heading{
     font-size: 38px;
     text-transform: uppercase;
@@ -53,6 +56,7 @@
     margin-left: 7.5%;
     margin-top: 2.3%;
 }
+*/
 .therapies{
     float: left;
     margin: 4% 8%;
@@ -373,6 +377,7 @@
 }
 */
 
+/*
 .offering-description {
     float: left;
     background-color: #ef9877;
@@ -382,3 +387,4 @@
     border-color: #ef9877;
     box-shadow: -1px 3px 8px #bfb5b5;
 }
+*/

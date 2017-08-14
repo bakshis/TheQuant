@@ -87,11 +87,13 @@ body{
     width: 51%;
     margin: 6% 6%;
 }
+/*
 .heading-beliefs{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
 }
+*/
 .description-beliefs{ 
     padding-top: 34px;  
 }
@@ -99,8 +101,8 @@ body{
     display: block;
     width: 10%;
     transition: 0.5s;
-    height: 5px;
-    background-color: #bdd7e2;
+    height: 4px;
+    background-color: #e2e9ec;
     border-radius: 20px;
     margin-top: 8px;
 }
@@ -140,6 +142,7 @@ body{
 .mobile-number-input::-webkit-input-placeholder{
     color:#ccc;
 }
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -148,6 +151,7 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
 .description11{
     float: right;
     width: 25%;
@@ -407,36 +411,42 @@ body{
     box-shadow: 0px 3px 6px #bbb;
     margin-bottom: 10%;
 }
+/*
 .about-us {
     width: 80%;  
     float: left;
 }
+*/
 
 
+/*
 .advertorials-description {
     float: left;
-    background-color: #ef9877;
+    background-color: #89c9e2;
     width: 100%;
     height: 85px;
     border: 1px solid;
-    border-color: #ef9877;
+    border-color: #89c9e2;
     box-shadow: -1px 3px 8px #bfb5b5;
 }
+*/
 
+/*
 .advertorials-heading {
     font-size: 38px;
     text-transform: uppercase;
     font-weight: 600;
     color: white;
     float: left;
-    margin-left: 7.5%;
+    margin-left: 5%;
     margin-top: 2.3%;
 }
+*/
 
 .advertorials-description-2 {
     float: left;
     width: 51%;
-    margin: 6% 6%;
+    margin: 4% 4.5%;
 }
 
 .advertorials-heading-2 {

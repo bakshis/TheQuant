@@ -70,10 +70,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .about-us-heading{
     width: 80%;  
     float: left;
 }
+*/
 /*
 .heading{
     font-size: 41px;
@@ -85,17 +87,21 @@ body{
     margin-top: 19px;
 }
 */
+/*
 .beliefs-description{
     float: left;
     width: 70%;
     margin: 5% 6%;
 }
+*/
+/*
 .heading-beliefs{
     text-transform: uppercase;
     color: #41adda;
     font-weight: bold;
     font-size: 25px;
 }
+*/
 .description-beliefs{ 
     padding-top: 34px;
     width: 63%;  
@@ -267,10 +273,12 @@ body{
     margin-top: 4px;
 }
 
+/*
 .heading-statement {
     margin: 6% 6%;
     height: 0;
 }
+*/
 .click {
 /*    float: left;*/
     margin-top: 3.5%;
@@ -279,6 +287,6 @@ body{
     color: #b3c893;
 
 
-                         heading-statement  heading-beliefs   tqiw-disclosures  click
+                         
     
 

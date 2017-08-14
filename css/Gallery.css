@@ -247,29 +247,36 @@ body{
 */
 
 
+/*
 .founders-heading {
     text-transform: uppercase;
     color: #41adda;
     font-weight: bolder;
     font-size: 23px;
-    /* float: left; */
+     float: left; 
     display: inline-block;
 }
+*/
 
+/*
 .founders-heading2 {
     color: #41adda;
     font-weight: bold;
     font-size: 21px;
-/*     float: left; */
+     float: left; 
     display: inline-block;
 }
+*/
 
+/*
 .founders-headings {
     margin-left: 5%;
     margin-top: 5%;
     float: left;
 }
+*/
 
+/*
 .founders-underline {
     display: block;
     width: 45%;
@@ -278,7 +285,9 @@ body{
     border-radius: 20px;
     margin-top: 4px;
 }
+*/
 
+/*
 .founders-underline2 {
     display: block;
     width: 29%;
@@ -287,13 +296,16 @@ body{
     border-radius: 20px;
     margin-top: 4px;
 }
+*/
 
+/*
 .director-description {
     float: left;
     width: 60%;
     margin-top: 5%;
     margin-left: 8.5%;
 }
+*/
 
 .link-1 {
     color: #9fb977;
@@ -336,10 +348,12 @@ body{
     margin-top: 4px;
 }
 
+/*
 .image {
     float: left;
     margin-top: 3%;
 }
+*/
 .director-description-2 {
     float:left;
     width: 60%;
