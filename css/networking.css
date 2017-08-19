@@ -1,7 +1,10 @@
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+*/
+/*
 .tqiw-logo-and-heading{
     float: left;
     width: 100%;
@@ -36,6 +39,7 @@ body{
     margin-top: 2.6%;
     margin-left: 1%;
 }
+*/
 .main-heading1{
     font-weight: 600;
     font-size: 18px;
@@ -43,6 +47,7 @@ body{
     margin: 0;
     float: left;
 }
+/*
 .header-underline{
     display: block;
     width: 27%;
@@ -52,6 +57,7 @@ body{
     border-radius: 20px;
     margin-top: 2%;
 }
+*/
 .buttons{
     position: absolute;
     right: 0;
@@ -70,10 +76,12 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .networking{
     width: 80%;  
     float: left;
 }
+*/
 .heading-networking{
     font-size: 38px;
     text-transform: uppercase;
@@ -88,17 +96,21 @@ body{
     margin: 4% 8%;
     width: 39%;
 }
+/*
 .members-heading{
     text-transform: uppercase;
     color: #d2b53d;
     font-weight: bold;
     font-size: 24px;
 }
+*/
+/*
 .description{
     float: right;
     width: 40%;
     margin-right: 34%;
 }
+*/
 .name{
     font-weight: bold;
 }
@@ -106,11 +118,13 @@ body{
     font-size: 10px;
     color: #d2b53d;
 }
+/*
 .description2{
     margin: 0 0 0; 
     width: 96%;
     padding-top: 10px;
 }
+*/
 .quotation{
     color: #d2b53d;
     font-size: 17px;
@@ -128,12 +142,14 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .description3{
     float: left;
     width: 40%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
 .name2{
     font-weight: bold;
 }
@@ -163,12 +179,14 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .description5{
     float: left;
     width: 40%;
     margin-left: 12%;
     margin-top: 4%;
 }
+*/
 .name3{
     font-weight: bold;
 }
@@ -176,11 +194,13 @@ body{
     font-size: 10px;
     color: #d2b53d;
 }
+/*
 .description6{
     margin: 0 0 0; 
     width: 96%;
     padding-top: 10px;
 }
+*/
 .quotation5{
     color: #d2b53d;
     font-size: 17px;
@@ -198,6 +218,7 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .description7{
     float: right;
     width: 40%;
@@ -205,6 +226,7 @@ body{
     margin-top: 3%;
     margin-bottom: 8%;
 }
+*/
 .name4{
     font-weight: bold;
 }
@@ -234,6 +256,7 @@ body{
     border-radius: 120px;
     margin-top: 3px;
 }
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -242,6 +265,8 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -252,6 +277,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -259,7 +286,7 @@ body{
     color: white;
     font-weight: 600;
     background-color: #57caf9;
-/*    margin: 0% 70%;*/
+    margin: 0% 70%;
     border-radius: 50px 0px 0px 49px;
     width: 86%;
     font-size: 12px;
@@ -276,6 +303,8 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -300,11 +329,15 @@ body{
     border: 1px solid #ac9292;
     
 }
+*/
 
+/*
 .two-buttons{
     position: absolute;
     bottom: 30%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -327,7 +360,9 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
 
+/*
 .about-us-description{
     float: left;
     background-color: #dac362;
@@ -338,9 +373,13 @@ body{
     box-shadow: -1px 3px 8px #bfb5b5;
 
 }
+*/
+/*
 .about-us-list{
     float: left;
 }
+*/
+/*
 
 .link{
     color: #ef9877;
@@ -350,14 +389,119 @@ body{
     color: #ef9877;
     text-decoration: none;   
 }
+*/
 
-.tqiw-heading {
-    margin: 2% 4%;
+
+
+/*
+.networking-description {
     float: left;
-    width: 24%;
+    background-color: #e8d788;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #e8d788;
+    box-shadow: 0px 5px 5px #e8d788;
+}
+*/
+
+/*
+.networking-heading {
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.3%;
+}
+*/
+
+/*
+.networking-description{
+    float: left;
+    background-color: #e8d788;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #e8d788;
+    box-shadow: 0px 5px 5px #e8d788;
+}
+*/
+
+.members-heading0 {
+    float: left;
+/*    margin: 6% 4%;*/
+    width: 39%;
+    margin-left: 4%;
+    margin-top: 6%;
 }
 
-.tqiw-2headings {
+.members-heading1 {
+    margin-left: 14px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #d4b93e;
+    text-transform: uppercase;
+}
+
+.members1 {
+    float: right;
+    width: 48%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+
+.member-description1 {
+    margin: 0 0 0;
+}
+
+.M-descriptionunderline {
+    display: block;
+    height: 4px;
+    width: 11%;
+    background-color: #e2d3ce;
+    border-radius: 120px;
+    margin-top: 3px;
+}
+
+.M-description-underline {
+    display: block;
+    height: 4px;
+    width: 11%;
+    background-color: #e2d3ce;
+    border-radius: 120px;
+    margin-top: 3px;
+}
+
+.members2 {
+    float: right;
+    width: 49%;
+    margin-right: 41%;
+    margin-top: 4%;
+}
+
+.member-description2 {
+    margin: 0 0 0;
+}
+
+.members3 {
     float: left;
-    margin: 1% 2%;
+    width: 48%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.member-description3 {
+    margin: 0 0 0;
+}
+
+.member4 {
+    float: right;
+    width: 48%;
+    margin: 4% 30% 10% 0%;
+}
+
+.member-description4 {
+    margin: 0 0 0;
 }

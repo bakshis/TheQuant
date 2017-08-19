@@ -5,22 +5,34 @@ body{
 }
 */
 /*
-
+.tqiw-headings-and-logo{
+    margin: 2% 4%;
+    float: left;
+}
+.tqiw-logo{
+    width:25%;
+    float: left;
+}
+*/
+/*
 .headings{
     float: left;
     margin: 1% 2%;
 }
 */
+/*
 .heading1{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
 }
+*/
 /*
 .heading2{
     width: 62%;
 }
 */
+/*
 .main-heading{
     position: absolute;
     right: 42%;
@@ -30,30 +42,33 @@ body{
     font-weight: 600;
     font-size: 18px;
     color: #2599c9;
-    width: 51%;
-    float: right;
+    margin: 0;
+    float: left;
 }
+*/
 /*
 .header-underline{
     display: block;
-    width: 11%;
+    width: 27%;
     background: #b9ddeb;
     height: 4px;
-    transition:.4s;    position: absolute;
-    top: 95%;
+    transition: .4s;
     border-radius: 20px;
+    margin-top: 2%;
 }
 */
 /*
 .button{
     position: absolute;
-    right: 13%;
-    top: 6%;
+    right: 0;
+    left: 81%;
+    top: 5%;
 }
 */
+/*
 .two-more-buttons{
     float: left;
-    height: 78%;
+    height: 100%;
     background-color: #c8e6f4;
     width: 20%;
     border: 1px solid;
@@ -63,6 +78,7 @@ body{
     padding-left: 0px;
     position: relative;
 }
+*/
 /*
 .about-us-heading{
     width: 80%;  
@@ -70,43 +86,41 @@ body{
 }
 */
 /*
-.heading{
-    font-size: 40px;
+.about-us-heading-2{
+    font-size: 38px;
     text-transform: uppercase;
     font-weight: 600;
     color: white;
     float: left;
-    margin-left: 6%;
-    margin-top: 21px;
+    margin-left: 5%;
+    margin-top: 2.3%;
 }
 */
-/*
 .beliefs-description{
     float: left;
     width: 22%;
-    margin: 6% 9%;
+/*    margin: 6% 9%;*/
         padding-left: 6%;
     padding-top: 6%;
 }
-*/
-/*
 .heading-beliefs{
     text-transform: uppercase;
-    color: #57caf9;
+    color: #30a7d8;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px
 }
-*/
 
-
-
-/*
+.yoga-image-1{
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+}
 .image-yoga{
     float: left;
     width: 100%;
     height: 330px;
 }
-*/
+
 
 
 /*
@@ -140,21 +154,20 @@ body{
     color: white;
     font-weight: 600;
     background-color: #57caf9;
-    margin: 0% 70%;
+     margin: 0% 70%; 
     border-radius: 50px 0px 0px 49px;
-    width: 205%;
+    width: 86%;
     font-size: 12px;
     border: 1px solid;
     box-shadow: 0px 6px 6px #bbb;
     border-color: #57caf9;
     outline: 0;
     transition: 0.4s;
-
+    float: right;
 }
 
 .dont-miss-button:hover{
-    margin-left: 68%;
-    width: 207%;
+    width: 88%;
     border: 1px solid #ac9292;
 }
 */
@@ -187,7 +200,7 @@ body{
 /*
 .two-buttons{
     position: absolute;
-    bottom: 11%;
+    bottom: 30%;
 }
 */
 /*
@@ -218,184 +231,78 @@ body{
 /*
 .about-us-description{
     float: left;
-    background-color: #6cd4b4;
+    background-color: #89c9e2;
     width: 100%;
     height: 85px;
     border: 1px solid;
-    border-color: #6cd4b4;
-    box-shadow: 0px 5px 5px #c6e5c6;
+    border-color: #89c9e2;
+    box-shadow: 0px 5px 5px #89c9e2;
 
 }
 */
-/*
 .grid-1 {
     float: left;
     margin-top: 20%;
-    width: 98%;
-}
-*/
-
-
-
-.inspired {
-    float: right;
-    width: 58%;
-    margin-right: 16%;
-    margin-top: 6%;
-    padding-bottom: 10%;
-    color: #b3c893;
 }
 
-.scrolling {
-    height: calc(100% - 240px);
-    overflow-y: scroll;
-    width: 80%;
-}
 
-.heading-underline {
-    display: block;
-    width: 27%;
-    height: 4px;
-    background-color: #dbdbdc;
-    margin-top: 2%;
-    border-radius: 150px;
-}
-
-.heading-underline2 {
-    display: block;
-    width: 13%;
-    height: 4px;
-    background-color: #dbdbdc;
-    margin-top: 2%;
-    border-radius: 150px;
-}
-
-/*
-.grid1 {
+.beliefs-underline {
     display: block;
     width: 33%;
     height: 4px;
     background-color: #dbdbdc;
-    margin-top: 3%;
-    border-radius: 150px;
-}
-*/
-
-.content {
-    float: left;
-    padding-top: 14%; 
-    padding-left: 3.5%;
-    width: 45%;
-}
-
-.content2 {
-    font-weight: bold; 
-    font-size: 25px;
-}
-
-.text-color {
-    color: #a7ba8a;
-}
-
-.main-content {
-    float: left;
-    width: 78%;
-}
-
-/*
-.grid2 {
-    float: left;
-    width: 26%;
-    padding-top: 4.5%;
-     padding-left: 2%; 
-    margin-left: 5%;
-    
-}
-*/
-
-.main-content2 {
-    float: left;
-    width: 80%;
-}
-
-/*
-.grid3 {
-    float: left;
-    width: 26%;
-    padding-top: 4.5%;
-     padding-left: 2%; 
-    margin-left: 3%;
-}
-*/
-
-.main-content3 {
-    float: left;
-    width: 78%;
-}
-
-
-.grid4 {
-    float: left;
-    width: 26%;
-    padding-top: 4.5%;
-    /* padding-left: 2%; */
-    margin-left: 2%;
-}
-
-.main-content4 {
-    float: left;
-    width: 79%;
-}
-
-.governnce-description1 {
-        float: left;
-    width: 22%;
-    /* margin: 6% 9%; */
-    padding-left: 5%;
-    padding-top: 6%;
-}
-
-.governance-heading2 {
-    text-transform: uppercase;
-    color: #30a7d8;
-    font-weight: bold;
-    font-size: 25px;
-    float: left;
-}
-
-.governance-underline{
-    display: block;
-    width: 27%;
-    height: 4px;
-    background-color: #dbdbdc;
     margin-top: 2%;
     border-radius: 150px;
 }
 
-.governance-grid {
-    float: left;
-    margin-top: 16%;
-    width: 94%;
-}
-
-.governance-underline2 {
+.trust-underline {
     display: block;
-    width: 13%;
+    width: 11%;
     height: 4px;
     background-color: #dbdbdc;
+    margin-left: 3.5%;
     margin-top: 1%;
     border-radius: 150px;
 }
 
-.governance-grid2 {
+.trust-heading {
+    float: left;
+    padding-top: 15%;
+    padding-left: 3.5%;
+}
+
+.trust-bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.three-grids {
+    float: left;
+    width: 78%;
+}
+
+.grid1 {
     float: left;
     width: 26%;
     padding-top: 4.5%;
     /* padding-left: 2%; */
-    margin-left: 4.5%;
+    margin-left: 7%;
 }
 
-.governance-grid3 {
+.grid-description {
+    float: left;
+    width: 80%;
+}
+
+.grid2 {
+    float: left;
+    width: 26%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 3%;
+}
+
+.grid3 {
     float: left;
     width: 26%;
     padding-top: 4.5%;
@@ -403,19 +310,32 @@ body{
     margin-left: 2%;
 }
 
-.governance-grid4 {
+.smalls-grids {
     float: left;
-    width: 26%;
-    padding-top: 4.5%;
-    /* padding-left: 2%; */
-    margin-left: 2%;
+    margin-left: 23%;
+    margin-bottom: 10%;
 }
 
-.G-G-underline {
-    display: block;
-    width: 33%;
-    height: 4px;
-    background-color: #dbdbdc;
-    margin-top: 2%;
-    border-radius: 150px;
+.small-grid1 {
+    float: left;
+    width: 27%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
+    margin-left: 5%;
+}
+
+.grid-description1 {
+    float: left;
+    width: 79%;
+}
+
+.grid-description2 {
+    float: left;
+    width: 77%;
+}
+
+.yoga-image-2 {
+    float: left;
+    width: 100%;
+    margin-top: 3%;
 }

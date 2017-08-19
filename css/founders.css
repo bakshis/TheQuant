@@ -1,9 +1,12 @@
 
 
+/*
 body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+*/
+/*
 .tqiw-logo-and-heading{
     float: left; 
     width: 100%;
@@ -40,6 +43,8 @@ body{
     margin-top: 2.6%;
     margin-left: 1%;
 }
+*/
+/*
 .heading{
     font-weight: 600;
     font-size: 18px;
@@ -47,6 +52,8 @@ body{
     margin: 0;
     float: left;
 }
+*/
+/*
 .header-underline{
     display: block;
     width: 27%;
@@ -56,12 +63,15 @@ body{
     border-radius: 20px;
     margin-top: 2%;
 }
+*/
+/*
 .button{
     position: absolute;
     right: 0;
     left: 81%;
     top: 24%;
 }
+*/
 .bottons-zone{
     float: left;
     height: 5500px;
@@ -74,6 +84,7 @@ body{
     padding-left: 0px;
     position: relative;
 }
+/*
 .allbuttons{
     float: left;
     height: 100%;
@@ -86,10 +97,14 @@ body{
     padding-left: 0px;
     position: relative;
 }
+*/
+/*
 .offering{
     width: 80%;  
     float: left;
 }
+*/
+/*
 .offering-heading{
     font-size: 40px;
     text-transform: uppercase;
@@ -99,14 +114,18 @@ body{
     margin-left: 5%;
     margin-top: 2.1%;
 }
+*/
+/*
 
 .description{
     float: right;
     width: 50%;
     margin-right: 23%;
 }
+*/
 
 
+/*
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -115,6 +134,8 @@ body{
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
 }
+*/
+/*
 .footer > li{
     list-style-type: none;
     display: inline-block;
@@ -125,6 +146,8 @@ body{
     margin-left: 23px;
     margin-top: 2%;
 }
+*/
+/*
 .dont-miss-button{
     border: 0;
     text-transform: uppercase;
@@ -132,7 +155,7 @@ body{
     color: white;
     font-weight: 600;
     background-color: #57caf9;
-/*    margin: 0% 70%;*/
+    margin: 0% 70%;
     border-radius: 50px 0px 0px 49px;
     width: 86%;
     font-size: 12px;
@@ -148,6 +171,8 @@ body{
     width: 88%;
     border: 1px solid #ac9292;
 }
+*/
+/*
 .your-membership-button{
     border: 0;
     text-transform: uppercase;
@@ -171,10 +196,14 @@ body{
     width: 88%;
     border: 1px solid #ac9292;  
 }
+*/
+/*
 .two-buttons{
     position: absolute;
     bottom: 30%;
 }
+*/
+/*
 .feedback-button{
     border: 0;
     text-transform: uppercase;
@@ -197,7 +226,9 @@ body{
     width: 88%;
     border: 1px solid #ac9292; 
 }
+*/
 
+/*
 .about-us-description{
     float: left;
     background-color: #82d2f3;
@@ -208,7 +239,9 @@ body{
     box-shadow: -1px 3px 8px #bfb5b5;
 
 }
+*/
 
+/*
 .link{
     color: #739073;
     font-size: 11px;
@@ -217,6 +250,7 @@ body{
     color: #739073;
     text-decoration: none;   
 }
+*/
 
 
 .founders-heading {
@@ -245,7 +279,7 @@ body{
 .founders-underline {
     display: block;
     width: 36%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -254,7 +288,7 @@ body{
 .founders-underline2 {
     display: block;
     width: 48%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -291,7 +325,7 @@ body{
 .description-undeline {
     display: block;
     width: 9.5%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -311,7 +345,7 @@ body{
 .rajit-description-underline {
     display: block;
     width: 9%;
-    background: #b9ddeb;
+    background: #e4e4e4;
     height: 4px;
     border-radius: 20px;
     margin-top: 4px;
@@ -342,15 +376,16 @@ body{
 .members-description {
     float: left;
     margin-top: 4%;
+    width: 79%;
 }
 
 .members-description-underline {
     display: block;
-    width: 22.3%;
+    width: 30%;
     background: #e0e1e1;
     height: 4px;
     border-radius: 20px;
-    margin-top: 4px;
+    margin-top: 4%;
 }
 
 .current-founders {
@@ -421,4 +456,8 @@ body{
         .feedback-button:hover{
             width: 95%;
         }
+}
+
+.col-sm-3 {
+    margin-right: 2.5%;
 }
