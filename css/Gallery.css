@@ -7,7 +7,7 @@ body{
 */
 /*
 .tqiw-logo-and-heading{
-    float: left; 
+    float: left;
     width: 100%;
 }
 .tqiw-heading{
@@ -51,7 +51,7 @@ body{
     width: 11%;
     background: #b9ddeb;
     height: 4px;
-    transition:.4s;    
+    transition:.4s;
     position: absolute;
     top: 95%;
     border-radius: 20px;
@@ -92,7 +92,7 @@ body{
 */
 /*
 .offering{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 */
@@ -187,7 +187,7 @@ body{
 }
 .your-membership-button:hover{
     width: 88%;
-    border: 1px solid #ac9292;  
+    border: 1px solid #ac9292;
 }
 */
 
@@ -218,7 +218,7 @@ body{
 }
 .feedback-button:hover{
     width: 88%;
-    border: 1px solid #ac9292; 
+    border: 1px solid #ac9292;
 }
 */
 
@@ -242,7 +242,7 @@ body{
 }
 .link:hover{
     color: #739073;
-    text-decoration: none;   
+    text-decoration: none;
 }
 */
 
@@ -253,7 +253,7 @@ body{
     color: #41adda;
     font-weight: bolder;
     font-size: 23px;
-     float: left; 
+     float: left;
     display: inline-block;
 }
 */
@@ -263,7 +263,7 @@ body{
     color: #41adda;
     font-weight: bold;
     font-size: 21px;
-     float: left; 
+     float: left;
     display: inline-block;
 }
 */
@@ -316,20 +316,23 @@ body{
 }
 
 .scrolling {
-    height: calc(100% - 240px);
+    height: calc(100% - 220px);
     overflow-y: scroll;
-    width: 80%; 
+    width: 80%;
     overflow-x: hidden;
 }
 
 .gallery-heading {
-    font-weight: bold;
-    font-size: 11.3px
+    color:#000;
+    padding-top:14%;
+    font-size: 14px
 }
 
 .gallery-heading-2 {
-    font-size: 13px;
-    margin-top:14%;
+  font-weight: bold;
+    font-size: 12px;
+    color:#000;
+    margin-top:18%;
 }
 
 
@@ -359,4 +362,48 @@ body{
     width: 60%;
     margin-top: 5%;
     margin-left: 3.5%;
+}
+
+
+
+/****************Aashit*****************/
+
+/* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0);
+}
+.carousel-control.left{
+  left:-60px !important;
+}
+.carousel-control.left i,.carousel-control.right i{
+  top:50% !important;
+  position: absolute;
+  font-size: 24px;
+  color:#b4b4b4;
+}
+.carousel-control.right{
+  right:-50px !important;
+}
+
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.margin-bottom-gal{
+margin-bottom: 15%;
+}
+.carousel-text{
+  margin-top:4%; 
 }
