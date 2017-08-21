@@ -246,11 +246,13 @@ body{
     color: #b3c893;
 }
 
+/*
 .scrolling {
     height: calc(100% - 240px);
     overflow-y: scroll;
     width: 80%;
 }
+*/
 
 .heading-underline {
     display: block;
@@ -418,4 +420,14 @@ body{
     background-color: #dbdbdc;
     margin-top: 2%;
     border-radius: 150px;
+}
+
+.membership-heading {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.3%;
 }

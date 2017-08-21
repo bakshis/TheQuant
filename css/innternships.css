@@ -1,0 +1,307 @@
+
+.internships {
+    float: left;
+    width: 80%;
+}
+
+.internships-description {
+    float: left;
+    background-color: #89c9e2;
+    width: 100%;
+    height: 85px;
+    border: 1px solid;
+    border-color: #89c9e2;
+    box-shadow: -1px 3px 8px #bfb5b5;
+}
+
+.internships-heading {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.3%;
+}
+
+.internships-heading1 {
+    float: left;
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 5.3%;
+}
+
+.internships-heading2 {
+    float: left;
+    text-transform: uppercase;
+    color: #41adda;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.intern-heading-underline {
+    display: block;
+    width: 30%;
+    transition: 0.5s;
+    height: 4px;
+    background-color: #a6c6d4;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.first-name {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 40%;
+    font-size: 14px;
+    padding: 3px 0px;
+    color: #000;
+}
+.first-name::-webkit-input-placeholder{
+    color: #ccc;
+}
+.form-fields {
+    float: left;
+    width: 100%;
+}
+
+.last-name {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 6%;
+    padding: 3px 0px;
+    color: #000;
+}
+.last-name::-webkit-input-placeholder{
+    color: #ccc;
+}
+
+.form {
+    float: left;
+    width: 100%;
+/*    margin: 2% 5.3%;*/
+    margin-left: 5.3%;
+    margin-top: 3%;
+}
+.selectdiv {
+    position: relative;
+    float: left;
+    width: 40%;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv:after {
+    content: '>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    transform: rotate(90deg);
+    right: 1%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0.5;
+    bottom: 10%;
+}
+.selectdiv select {
+      -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    float: right;
+    margin: 5px 0px;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #333;
+    -ms-word-break: normal;
+    border: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 100%;
+    outline: 0;
+}
+option{
+    background-color: #fbf7f7;
+}
+.label-1 {
+    font-size: 14px;
+}
+select:required:invalid {
+  color: #ccc;
+}
+option[value=""] {
+  display: none;
+}
+option {
+  color: black;
+}
+.select-field {
+    float: left;
+    width: 100%;
+/*    margin: 1% 5.3%;*/
+    margin-left: 5.3%;
+    margin-top: 1%;
+}
+.PIN-code {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 6.5%;
+    padding: 3px 0px;
+    color: #000;
+    margin-top: 0.5%;
+}
+.PIN-code::-webkit-input-placeholder{
+    color: #ccc;
+}
+
+.select-fields-2 {
+    float: left;
+    width: 100%;
+    margin: 0.8% 5.3%;
+}
+
+.selectdiv-2 {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 6.6%;
+    margin-top: 3.2%;
+}
+
+.selectdiv-2:after {
+    content: '>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    transform: rotate(90deg);
+    right: 1%;
+    top: 2%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0.5;
+}
+.selectdiv-2 select {
+      -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    float: right;
+    margin: 5px 0px;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #333;
+    -ms-word-break: normal;
+    border: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 100%;
+    outline: 0;
+}
+
+.select-fields-3 {
+    float: left;
+    width: 100%;
+    margin: 1.2% 5.3%;
+}
+
+.selectdiv-3 {
+    position: relative;
+    float: left;
+    width: 40%;
+}
+.selectdiv-3:after {
+    content: '>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    transform: rotate(90deg);
+    right: 1%;
+    bottom: 6%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0.5;
+}
+.selectdiv-3 select {
+      -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    float: right;
+    margin: 5px 0px;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #333;
+    -ms-word-break: normal;
+    border: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 100%;
+    outline: 0;
+}
+
+.selectdiv-4 {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 6.6%;
+}
+
+.selectdiv-4:after {
+    content: '>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    transform: rotate(90deg);
+    right: 1%;
+    bottom: 6%;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0.5;
+}
+.selectdiv-4 select {
+      -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    float: right;
+    margin: 5px 0px;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #333;
+    -ms-word-break: normal;
+    border: 0;
+    border-bottom: 1px solid #57caf9;
+    width: 100%;
+    outline: 0;
+}
+.submit-form {
+    background-color: #86d2f1;
+    border: 1px solid #86d2f1;
+    width: 10%;
+    height: 33px;
+    border-radius: 30px;
+    color: white;
+    outline: 0;
+    margin-top: 4%;
+    box-shadow: 0px 3px 6px #bbb;
+    margin-bottom: 10%;
+}

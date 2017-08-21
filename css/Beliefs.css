@@ -98,7 +98,7 @@ body{
 */
 .beliefs-description{
     float: left;
-    width: 22%;
+    width: 21%;
 /*    margin: 6% 9%;*/
         padding-left: 6%;
     padding-top: 6%;
@@ -269,6 +269,12 @@ body{
     float: left;
     padding-top: 15%;
     padding-left: 3.5%;
+    width: 79%;
+}
+@media (max-width: 802px){
+    .trust-heading{
+        margin-left: 1%;
+    }
 }
 
 .trust-bold {

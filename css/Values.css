@@ -261,11 +261,13 @@ body{
     float: left;
 }
 */
+/*
 .scrolling{
     height: calc(100% - 240px);
     overflow-y: scroll;
     width: 80%;
 }
+*/
 .values-underline{
     display: block;
     width: 7%;
