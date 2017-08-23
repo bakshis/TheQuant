@@ -4,16 +4,7 @@
     width: 80%;
 }
 
-.event-support-description {
-    float: left;
-    background-color: #89c9e2;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: -1px 3px 8px #bfb5b5;
-    opacity: 0.8;
-}
+
 
 .event-support-heading {
     font-size: 34px;
@@ -35,7 +26,7 @@
 .event-support-heading2 {
     float: left;
     text-transform: uppercase;
-    color: #41adda;
+    color: #36ADCA;
     font-weight: bold;
     font-size: 26px;
 }
