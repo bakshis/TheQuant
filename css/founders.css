@@ -8,7 +8,7 @@ body{
 */
 /*
 .tqiw-logo-and-heading{
-    float: left; 
+    float: left;
     width: 100%;
     position: relative;
 }
@@ -59,7 +59,7 @@ body{
     width: 27%;
     background: #b9ddeb;
     height: 4px;
-    transition:.4s;    
+    transition:.4s;
     border-radius: 20px;
     margin-top: 2%;
 }
@@ -100,7 +100,7 @@ body{
 */
 /*
 .offering{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 */
@@ -194,7 +194,7 @@ body{
 }
 .your-membership-button:hover{
     width: 88%;
-    border: 1px solid #ac9292;  
+    border: 1px solid #ac9292;
 }
 */
 /*
@@ -224,7 +224,7 @@ body{
 }
 .feedback-button:hover{
     width: 88%;
-    border: 1px solid #ac9292; 
+    border: 1px solid #ac9292;
 }
 */
 
@@ -248,7 +248,7 @@ body{
 }
 .link:hover{
     color: #739073;
-    text-decoration: none;   
+    text-decoration: none;
 }
 */
 
@@ -294,6 +294,14 @@ body{
     margin-top: 4px;
 }
 
+.founders-underline2-as {
+    display: block;
+    width: 60px;
+    background: #e4e4e4;
+    height: 4px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
 .director-description {
     float: left;
     width: 58%;
@@ -339,7 +347,7 @@ body{
 .scrolling {
     height: calc(100% - 240px);
     overflow-y: scroll;
-    width: 80%; 
+    width: 80%;
     overflow-x: hidden;
 }
 */
@@ -392,7 +400,7 @@ body{
 
 .current-founders {
     float: left;
-    margin-left: 21%; 
+    margin-left: 21%;
     margin-top: 6%;
 }
 
@@ -444,12 +452,12 @@ body{
             font-size:9px !important;
             font-weight: bold;
             width: 90%;
-        } 
-        
+        }
+
         .your-membership-button:hover{
             width: 95%;
         }
-    
+
         .feedback-button{
             font-size:9px !important;
             font-weight: bold;

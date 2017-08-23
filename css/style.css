@@ -11,9 +11,13 @@ body{
     height: 100%;
 }
 .tqiw-logo-and-heading{
-    float: left; 
+    float: left;
     position: relative;
     width: 100%;
+    height: 120px;
+    box-shadow: 0px -3px 23px 3px #a2a2a2;
+    
+    z-index: 1;
 }
 .tqiw-heading{
     margin: 2% 4%;
@@ -94,7 +98,7 @@ body{
     width: 27%;
     background: #b9ddeb;
     height: 4px;
-    transition:.4s;    
+    transition:.4s;
     border-radius: 20px;
     margin-top: 2%;
 }
@@ -346,7 +350,7 @@ body{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #36adc1;    
+    color: #36adc1;
     margin-top: 122%;
 }
 */
@@ -399,7 +403,7 @@ body{
     color: black;
     transition: 0.5s;
     font-weight: bold;
-   
+
 }
 
 .library >span{
@@ -451,6 +455,7 @@ body{
     width: 40px;
 }
 
+<<<<<<< HEAD
 /*
     .members-profile:hover{
         color: black;
@@ -459,6 +464,14 @@ body{
 
     }
 */
+=======
+.members-profile:hover{
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+>>>>>>> 1f1d1d3bb233da4180c1c7c831bba6260a0b8cf3
 
 .about-us-list{
     float: left;
@@ -622,7 +635,7 @@ body{
 .footer{
     clear: both;
     background-color: #b3ddef;
-    height: 150px;
+    height: 140px;
     border: 1px solid;
     border-color: #b3ddef;
     box-shadow: 20px 25px 40px 20px #756f6f;
@@ -745,7 +758,7 @@ body{
     width: 20%;
     border: 1px solid;
     border-color: #c8e6f4;
-    box-shadow: 3px 0px 5px #c6e5c6;
+    box-shadow: 3px 84px 5px #c6e5c6;
     padding: 30px;
     padding-left: 0px;
     position: relative;
@@ -761,7 +774,7 @@ body{
     font-size: 20px;
     color: #2599c9;
     margin: 0;
-    float: left;
+    /*float: left;*/
 }
 .button{
     position: absolute;
@@ -795,7 +808,7 @@ body{
     bottom: 30%;
 }
 .offering{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .offering-description {
@@ -817,7 +830,7 @@ body{
     margin-top: 2.3%;
 }
 .about-us {
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .advertorials-description {
@@ -839,7 +852,7 @@ body{
     margin-top: 2.3%;
 }
 .about-us-heading{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .about-us-description{
@@ -889,7 +902,7 @@ body{
     margin-top: 2.3%;
 }
 .disclosure {
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .disclosure-description {
@@ -933,7 +946,7 @@ body{
     margin-top: 2.3%;
 }
 .governance{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .governace-description{
@@ -955,7 +968,7 @@ body{
     margin-top: 2.3%;
 }
 .intentional{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .intentional-description{
@@ -978,7 +991,7 @@ body{
     margin-top: 2.3%;
 }
 .join-us{
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .join-us-heading{
@@ -1022,7 +1035,7 @@ body{
     margin-top: 2.3%;
 }
 .values-description0 {
-    width: 80%;  
+    width: 80%;
     float: left;
 }
 .values-description1 {
@@ -1044,7 +1057,7 @@ body{
     margin-top: 2.3%;
 }
 .scroller{
-    height: calc(100% - 240px);
+    height: calc(100% - 220px);
     overflow-y: scroll;
     width: 80%;
     overflow-x: hidden;
@@ -1062,6 +1075,9 @@ body{
     display: flex;
     float: left;
 }
+<<<<<<< HEAD
 .press-1 {
     
 }
+=======
+>>>>>>> 1f1d1d3bb233da4180c1c7c831bba6260a0b8cf3

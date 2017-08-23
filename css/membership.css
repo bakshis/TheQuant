@@ -11,7 +11,7 @@
     height: 85px;
     border: 1px solid;
     border-color: #89c9e2;
-    box-shadow: -1px 3px 8px #bfb5b5;
+/*    box-shadow: -1px 3px 8px #bfb5b5;*/
 }
 
 .membership-heading2 {
@@ -196,7 +196,7 @@
     border: 0;
     border: 1px solid #41adda;
     background-color: #41adda;
-    width: 60%;
+    width: 74%;
     font-size: 10px;
     color: white;
     padding: 5px;
@@ -206,27 +206,97 @@
 
 .login {
     margin-top: 12%;
+    float: left;
+    width: 100%;
 }
 
 
 .floating-label {
-  position: absolute;
-  pointer-events: none;
-  left: 17px;
-  top: 18px;
-  transition: 0.2s ease all;
+    position: relative;
+    pointer-events: none;
+    /* left: 19%; */
+    top: 13px;
+    transition: 22.2s ease all;
+    color: #57caf9;
+    font-size: 11px;
+     transition: 0.5s; 
+    transition: 0.5s !important;
 }
 
 .inputText {
     font-size: 14px;
-  width: 200px;
-  height: 35px;
+    /* width: 200px; */
+    height: 35px;
+    border: 0;
+    outline: 0;
+    background-color: #cfe698;
+    border-bottom: 1px solid white;
+    width: 68%;
+    font-weight: bold;
+    position: absolute;
+    background: 0;
 }
 input:focus ~ .floating-label,
 input:not(:focus):valid ~ .floating-label{
-  top: 8px;
+  top: 11.8%;
   bottom: 10px;
-  left: 17px;
+/*  left: 19%;*/
   font-size: 11px;
   opacity: 1;
+}
+
+.floating-label2 {
+    position: relative;
+    pointer-events: none;
+    left: 0%;
+    top: 14px;
+    color: #57caf9;
+    font-size: 11px;
+    transition: 0.5s;
+}
+
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+  top: 45px;
+  bottom: 10px;
+  top: 30%;
+/*  left: 19%;*/
+  font-size: 11px;
+  opacity: 1;
+}
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.panel-title > span.plus{display:none;}
+.panel-title > span.minus {display:block;}
+.panel-title.collapsed > span.minus{display:none;}
+.panel-title.collapsed > span.plus{display:block;}
+.panel-default>.panel-heading {
+    background-color: #1ab1bf;
+}.panel-title {color:#fff;}
+
+
+
+.hover {
+    padding: 0;
+}
+
+.hover:hover {
+    font-weight: bold;
+}
+
+.statement:hover{
+    text-decoration: none;
+    font-weight: bold;   
 }

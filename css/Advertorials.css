@@ -123,7 +123,7 @@ body{
 .name-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
     font-size: 14px;
     transition: .5s;
@@ -136,7 +136,7 @@ body{
 .mobile-number-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
     margin: 0% 1%;
     float: right;
@@ -288,16 +288,16 @@ body{
 .email-id{
     float: left;
     width: 46%;
-    margin-top: 10px;
+    margin-top: 3%;
 }
 .email-id-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 100%;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 3%;
+/*    padding-top: 3%;*/
 }
 .email-id-input::-webkit-input-placeholder{
     color: #ccc;
@@ -305,13 +305,13 @@ body{
 .input-website{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
     margin: 0% 1%;
     float: right;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 2.5%;
+    padding-top: 5.6%;
 }
 .input-website::-webkit-input-placeholder{
     color: #ccc;
@@ -319,11 +319,11 @@ body{
 .service-offered-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 5%;
+/*    padding-top: 4%;*/
 }
 .seven-input-field{
     float: left;
@@ -336,13 +336,13 @@ body{
 .tariff-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
     margin: 0% 1%;
     float: right;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 5%;
+/*    padding-top: 4%;*/
 }
 .tariff-input::-webkit-input-placeholder{
     color: #ccc;
@@ -350,11 +350,11 @@ body{
 .service-about-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 99%;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 .service-about-input::-webkit-input-placeholder{
     color: #ccc;
@@ -362,7 +362,7 @@ body{
 .service-delivered-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 99%;
 /*    opacity: 0.5;*/
     font-size: 14px;
@@ -374,11 +374,11 @@ body{
 .certiﬁcation-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 .certiﬁcation-input::-webkit-input-placeholder{
     color: #ccc;
@@ -386,7 +386,7 @@ body{
 .qualification-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 46%;
     margin: 0% 1%;
     float: right;
@@ -400,11 +400,11 @@ body{
 .therapy-center-input{
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #d1caca;
+    border-bottom: 1px solid #57caf9;
     width: 99%;
 /*    opacity: 0.5;*/
     font-size: 14px;
-    padding-top: 5%;
+    padding-top: 3.3%;
 }
 .therapy-center-input::-webkit-input-placeholder{
     color: #ccc;

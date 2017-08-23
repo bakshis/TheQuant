@@ -23,6 +23,7 @@
                <link href="./css/Advertorials.css" rel="stylesheet">
                <link href="css/membership.css" rel="stylesheet">
                <link href="css/event-support.css" rel="stylesheet">
+               <script src="js/index.js"></script>
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
                <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,15 +32,18 @@
         <body class="body-1">
               <div class="tqiw-logo-and-heading">
                 <div class="tqiw-heading">
+                   <img src="assets/icons/logo.png">
+<!--
                     <div class="tqiw-2headings">
                     <img class="tqiw-logo" src="assets/images/t%20logo.png">
                     <span class="tqiw-heading1">tqiw</span>
                     <p class="tqiw-heading2">The Quantum Institute <br>For WellBeing</p>
                     </div>   
+-->
                 </div>
 
                 <div class="tqiw-main-heading-2">
-                <h4 class="heading-2">An intentional community of seekers<br> in search of truth for personal well-being 
+                <h4 class="heading-2 hidden-xs">An intentional community of seekers<br> in search of truth for personal well-being 
                   <span class="header-underline"></span>
                 </h4>
                 </div>
@@ -51,57 +55,116 @@
               </div>
             
               <div class="allbuttons-2">
+              
+                <div class="container">
+                      <div class="panel-group" id="accordion">
+                        <div class="panel panel-default" style="border: 0;background-color: #c8e6f4;box-shadow: 0 1px 1px rgba(0,0,0,-0.95);">
+                          <div class="panel-heading" style="background-color: #c8e6f4;">
+                            <h4 class="panel-title collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse1" aria-expanded="false" style="font-size: 15.5px;font-weight: bold;color: #41adda;text-transform: uppercase; margin-left: 11%; cursor: pointer;">
+                              About Us <span class="glyphicon glyphicon-menu-down plus pull-right" style="transform: rotate(-90deg);color: #c7c0c0;font-size: 12px;"></span><span class="glyphicon glyphicon-menu-right minus pull-right" style="transform: rotate(90deg);color: #c7c0c0;font-size: 12px;"></span>
+                            </h4>
+                          </div>
+                          <div id="collapse1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                            <ul style="font-size: 13px;">
+                                <li class="list-group-item hover"><a class="statement" href="#" style="color: black">Intentional Statement <span></span></a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color:black;">Beliefs </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Values & Principles </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Governance  </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Statutory Disclosure </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Founders </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Press Room </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Testimonials </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">Gallery </a></li>
+                                <li class="list-group-item" style="padding: 0;font-size: 13px;"><a class="statement" href="#" style="color: black;">FAQ’s </a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="panel panel-default" style="background-color: #c8e6f4; border: 0;box-shadow: 0 1px 1px rgba(0,0,0,-0.95)">
+                          <div class="panel-heading" style="border: 0;background-color: #c8e6f4;">
+                            <h4 class="panel-title collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse2" aria-expanded="false" style="font-size: 15.5px;font-weight: bold;color: #41adda;text-transform: uppercase; margin-left: 11%; cursor: pointer;">
+                              offerings<span class="glyphicon glyphicon-menu-down plus pull-right" style="transform: rotate(-090deg); color: #c7c0c0;font-size: 12px;"></span><span class="glyphicon glyphicon-menu-right minus pull-right" style="transform: rotate(90deg); color: #c7c0c0;font-size: 12px;"></span>
+                            </h4>
+                          </div>
+                          <div id="collapse2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;background-color: #c8e6f4;">
+                            <ul style="list-style-type: none;">
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Membership</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Volunteers</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Careers</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Internships</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Secondment</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Contributions</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Network Partners</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Join as a Mentor</a></li>
+                                <li class="list-group-item4" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Join as a Mentee</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="panel panel-default" style="background-color: #c8e6f4; border: 0;box-shadow: 0 1px 1px rgba(0,0,0,-0.95)">
+                          <div class="panel-heading" style="border: 0;background-color: #c8e6f4;">
+                            <h4 class="panel-title collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3" aria-expanded="false" style="font-size: 15.5px;font-weight: bold;color: #41adda;text-transform: uppercase; margin-left: 11%; cursor: pointer;">
+                              Join Us<span class="glyphicon glyphicon-menu-down plus pull-right"style="transform: rotate(-90deg); color: #c7c0c0;font-size: 12px;"></span><span class="glyphicon glyphicon-menu-right minus pull-right" style="transform: rotate(90deg); color: #c7c0c0;font-size: 12px;"></span>
+                            </h4>
+                          </div>
+                          <div id="collapse3" class="panel-collapse collapse" aria-expanded="false">
+                            <ul style="list-style-type: none; padding: 0;margin-left: 9%;">
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Membership</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Volunteers</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Careers</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Internships</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Secondment</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Contributions</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Network Partners</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Join as a Mentor</a></li>
+                                <li class="list-group-item3" style="font-size: 13px;"><a class="statement" href="#" style="color: black;">Join as a Mentee</a></li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                      </div>
+  
+                    </div>
+                    
+                    
                   <div class="container">
                       
-                    <ul class="list-group">
+                    <ul class="list-group" style=" margin-top: -9%;">
                         
                         <li class="list-group-item">
-                         <a class="about-us-menu" data-toggle="collapse" href="#department-cs">About us</a>
+                         <a class="about-us-menu" data-toggle="collapse" href="#department-cs" style="margin-left: 11%; color: #41adda; font-size: 15.5px;">Events</a>
                             <ul class="list-group collapse" id="department-cs">
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Intentional Statement </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Beliefs </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Values & Principles </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Governance  </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Statutory Disclosure </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Founders </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Press Room </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Testimonials </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">Gallery </a></li>
-                                <li class="list-group-item" style="padding: 0;"><a href="#">FAQ’s </a></li>
+                                <li class="list-group-item" style="padding: 0;margin-left: 11%;margin-top: 5%;"><a href="#">List of Past Events</a></li>
+                                <li class="list-group-item" style="padding: 0;margin-left: 11%;margin-top: 5%;"><a href="#">TQIW Organised Events</a></li>
+                                <li class="list-group-item" style="padding: 0;margin-left: 11%;margin-top: 5%;"><a href="#">Recommended World Events</a></li>
+                                
                             </ul>
                         </li>
                         
                         <li class="list-group-item">
-                          <a class="music" data-toggle="collapse" href="#department-musi">Offerings</a>
+                          <a class="music" data-toggle="collapse" href="#department-musi" style="margin-left: 11%; color: #41adda; font-size: 15.5px;">Networking</a>
                             <ul style="list-style-type: none;" class="list-group collapse" id="department-musi">
                               
                                <div>
                                  <div style="margin-left: -3%;">
-                                  <button type="button" data-toggle="modal" data-target="#myModal" style="border: 0;outline: 0;background-color: #c8e6f4;color: #337ab7;">Log In</button>
+                                  <button type="button" data-toggle="modal" data-target="#myModal" style="border: 0;outline: 0;background-color: #c8e6f4;color: #337ab7;margin-left: 11%;margin-top: 5%;">Log In</button>
                                  </div>
                                   <div class="modal fade" id="myModal" role="dialog">
                                     <div class="modal-dialog modal-sm" style="width: 28%;top: 257px;">
                                       <div class="modal-content" style="height: 355px;border-radius: 0;background-color: #cfe698;border: 1px;">
-                                        <div class="modal-header" style="border: 0;">
-                                         <div>
+                                        <div class="modal-header" style="border: 0; text-align: center;">
+                                         <div style="text-align: center;    margin-top: 11%;">
                                           
                                           <div>
+                                             <div style="float: left;width: 96%;margin-left: -26%;">
                                               <input type="text" class="inputText" required/>
-                                              <span class="floating-label">Your email address</span>
+                                              <span class="floating-label">Employee ID</span>
+                                            </div>
+                                              <div style="margin-top: 6%;float: left;float: left;width: 96%;margin-left: -28%;">
+                                                  <input type="text" class="inputText" required/>
+                                                  <span class="floating-label2">Password</span>
+                                              </div>
                                           </div>
                                           
-                                          <div>
-                                              <input type="text" class="inputText" required/>
-                                              <span class="floating-label">Your email address</span>
-                                          </div>
-                                          
-                                          <div class="input1">
-                                            <input class="employee-id" type="text" placeholder="Employee ID">
-                                          </div>
-                                          <div class="input1" style="margin-top: 10%;">
-                                            <input class="employee-id" type="text" placeholder="Password">
-                                          </div>
-                                          <div style="margin-top: 3%;">
+                                          <div style="margin-top: 6%;float: left;margin-left: 13%;">
                                               <input type="checkbox" style="width: 18px; height: 18px"><span>Remember Me</span>
                                               <input type="checkbox" style="width: 18px; height: 18px">Show Password
                                           </div>
@@ -109,7 +172,7 @@
                                           <div class="login">
                                               <button class="login-button">LOGIN</button>
                                           </div>
-                                             <div style="text-align: center;margin-top: 4%;font-size: 10px;font-weight: bold;"><a href="#" style="color: black;">Forgot Password?</a>
+                                             <div style="text-align: center;margin-top: 4%;font-size: 10px;font-weight: bold;float: left;margin-left: 37%;"><a href="#" style="color: black;">Forgot Password?</a>
                                              </div>
                                         </div>
                                         </div>
@@ -118,25 +181,17 @@
                                   </div>
                                </div>
                              
-                                <li class="list-group-item2"><a href="#">Library</a></li>
-                                <li class="list-group-item2"><a href="#">E-Library</a></li>
-                                <li class="list-group-item2"><a href="#">Diagnostics</a></li>
-                                <li class="list-group-item2"><a href="#">Therapies</a></li>
-                                <li class="list-group-item2"><a href="#">Nutrition</a></li>
-                                <li class="list-group-item2"><a href="#">Yoga</a></li>
-                                <li class="list-group-item2"><a href="#">Meditations</a></li>
-                                <li class="list-group-item2"><a href="#">Advertorials</a></li>
-                                <li class="list-group-item2"><a href="#">Event Support</a></li>
-                                <li class="list-group-item2"><a href="#">Hospitality</a></li>
-                                <li class="list-group-item2"><a href="#">Introductions</a></li>
-                                <li class="list-group-item2"><a href="#">Connections</a></li>
-                                <li class="list-group-item2"><a href="#">Guest Invitations</a></li>
+                                <li class="list-group-item2"><a href="#" style="margin-left: 11%;margin-top: 5%;">Members Proﬁle</a></li>
+                                <li class="list-group-item2"><a href="#" style="margin-left: 11%;margin-top: 5%;">E-Library</a></li>
+                                <li class="list-group-item2"><a href="#" style="margin-left: 11%;margin-top: 5%;">MembersExperience</a></li>
+                                <li class="list-group-item2"><a href="#" style="margin-left: 11%;margin-top: 5%;">Advisory</a></li>
                             </ul>
                         </li>
                     </ul>
                       
                 </div>
                   
+<!--
                 <div class="container">
                   <div class="panel-group">
                     <div class="panel panel-default" style=" background-color: #c8e6f4;border: 0;box-shadow: none;">
@@ -161,8 +216,19 @@
                     </div>
                   </div>
                 </div>
-                                    
-                  
+-->
+                
+<!--
+                <div class="container">
+                  <a href="#demo"  data-toggle="collapse">Simple collapsible</a>
+                  <div id="demo" class="collapse">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+-->
+               
                 <div class="two-buttons-2">
                     <button class="your-membership-button">Fast track your membership</button>
                     <button class="feedback-button">gift us your feedback</button>
@@ -171,6 +237,9 @@
 
               <div class="membership-fields">
                      <div class="membership-description">
+                       <div class="side-icon">
+                          <img src="assets/icons/header.png">
+                        </div>
                         <h5 class="membership-heading">Join Us</h5>
                      </div>
               </div>
