@@ -45,18 +45,6 @@
     padding-top: 34px;  
 }
 
-
-
-.input-field-start{
-    float: left;
-    margin-left: 4.5%;
-    width: 91%;
-}
-
-.input-field-start > input:focus{
-    color: black;
-}
-
 .name-input{
     border: 0;
     outline: 0;
@@ -225,19 +213,7 @@
     color: #ccc;
 }
 
-.submit-button{
-    background-color: #86d2f1;
-    border: 1px solid #86d2f1;
-    width: 45%;
-    height: 32px;
-    border-radius: 30px;
-    color: white;
-    outline: 0;
-    box-shadow: 0px 3px 6px #bbb;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 8px;
-}
+
 
 /* .advertorials-description-2 {
     float: left;

@@ -28,21 +28,28 @@ body{
     width:25%;
     padding: 0px 30px;
     float: left;
+    min-height: 50px;
 }
 .tqiw-grid-2{
     width:50%;
     padding:0px 30px;
     float: left;
+    min-height: 50px;
+    
 }
 .tqiw-grid-3{
     width:75%;
     padding: 0px 30px;
     float: left;
+    min-height: 50px;
+    
 }
 .tqiw-grid-4{
     width:100%;
     padding: 0px 30px;
     float: left;
+    min-height: 50px;
+    
 }
 
 /*header css*/
@@ -243,7 +250,7 @@ body{
     overflow-y: scroll;
     width: 100%;
     overflow-x: hidden;
-    padding: 30px;
+    padding-top: 30px; 
 }
 /* home content css ends  */
 
@@ -288,6 +295,8 @@ body{
 
 .footer{
     clear: both;
+     float: left;
+    margin-top: 120px;
     background-color: #b3ddef;
     height: 140px;
     border: 1px solid;
@@ -306,6 +315,7 @@ body{
     display: inline-block;
     border-right: 1px solid;
     padding: 0px 11px;
+    margin-bottom: 30px;
 }
 .footer > ul > .list-3{
     display: inline-block;
@@ -419,7 +429,13 @@ body{
     transition: .8s;
     
 }
-
+.page-heading {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+}
 .side-icons {
     float: right;
 }
@@ -431,7 +447,7 @@ body{
 }
 .section-heading > span,.section-heading-description > span{
     display: block;
-    width: 10%;
+    width: 66px;
     transition: 0.5s;
     height: 4px;
     background-color: #e2e9ec;
@@ -442,38 +458,74 @@ body{
     /* padding-top: 34px; */
     margin-bottom: 30px;
 }
-.about-us-description{
+.full-image{
     float: left;
-    background-color: #89c9e2;
     width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: 0px 5px 5px #89c9e2;
+    margin:30px 0px;
 }
-.about-us-heading-2{
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
+.full-image > img{
     float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
+    width: 100%;
+    height: 330px;
 }
 
-.advertorials-description {
-    float: left;
-    background-color: #89c9e2;
+/* common page css ends  */
+
+
+/* form css  */
+.tqiw-input{
+      border: 0;
+    outline: 0;
+    border-bottom: 1px solid #57caf9;
     width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: -1px 3px 8px #bfb5b5;
-}
-.page-heading {
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
+    /* float: right; */
+    font-size: 14px;
     float: left;
+    margin-bottom: 30px;
+    transition: .3s;
+    color: #333
 }
+.tqiw-input::-webkit-input-placeholder{
+    color:#ccc;
+    transition: .3s;
+    
+}
+
+.tqiw-input:focus::-webkit-input-placeholder{
+    color:#756f6f;
+}
+.tqiw-label{
+    font-size: 14px;
+    color: #36adc1;
+    margin-bottom: 5px;    
+    display: block;
+}
+.left-field{
+    width: calc(50% - 30px);
+    margin-right: 30px;
+}
+
+.right-field{
+    width: calc(50% - 30px);
+    margin-left: 30px;
+}
+.submit-button{
+    background-color: #36adc1;
+    border: 1px solid #36ADC1;
+    width: 110px;
+    /* height: 32px; */
+    border-radius: 30px;
+    color: white;
+    outline: 0;
+    box-shadow: 0px 3px 6px #bbb;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 30px 0px;
+    transition: .3s
+}
+.submit-button:hover{
+    border: 1px solid #127E89;
+    box-shadow: 0px 5px 12px 0px #aaa;
+}
+/* form css ends */
