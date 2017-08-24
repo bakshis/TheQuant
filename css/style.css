@@ -17,24 +17,42 @@
     
 
 body{
-/*
-    overflow-x: hidden;
-    overflow-y: hidden;
-*/
     height: 100%;
 }
 .body-1{
-/*    overflow-x: hidden;*/
     overflow-y: hidden;
     height: 100%;
 }
+
+.tqiw-grid-1{
+    width:25%;
+    padding: 0px 30px;
+    float: left;
+}
+.tqiw-grid-2{
+    width:50%;
+    padding:0px 30px;
+    float: left;
+}
+.tqiw-grid-3{
+    width:75%;
+    padding: 0px 30px;
+    float: left;
+}
+.tqiw-grid-4{
+    width:100%;
+    padding: 0px 30px;
+    float: left;
+}
+
+/*header css*/
 .tqiw-logo-and-heading{
     float: left;
     position: relative;
     width: 100%;
     height: 120px;
     z-index: 1;
-    box-shadow: 3px 0px 13px 1px darkgrey;
+    box-shadow: 3px -4px 20px 1px #aaa;
 }
 .tqiw-heading{
     margin: 2% 4%;
@@ -45,78 +63,33 @@ body{
     width:25%;
     float: left;
 }
-.tqiw-2headings{
+.tqiw-home-header-tagline{
     float: left;
-    margin: 1% 2%;
-}
-.tqiw-heading1{
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 20px;
-    float: left;
-    margin-left: 2%;
-}
-.tqiw-heading2{
-    width: 70%;
-    float: left;
-    margin-left: 4%;
-}
-.tqiw-home-header-text{
-    float: left;
-    width: 42%;
+    /* width: 42%; */
     margin-top: 2.6%;
     margin-left: 5%;
 }
-.tqiw-home-header-text > h4{
+.tqiw-home-header-tagline > h4{
     font-weight: bolder;
     font-size: 26px;
     color: #36adc1;
     margin: 0;
     float: left;
 }
-/*
-.tqiw-logo-and-heading{
-    margin: 2% 4%;
+.tqiw-pages-header-tagline{
     float: left;
+    /* width: 29%; */
+    margin-top: 2.6%;
+/*    margin-left: 5%;*/
 }
-.tqiw-logo{
-    width:8%;
-    float: left;
-}
-.tqiw-heading2{
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 20px;
-}
-.tqiw-2-heading{
-    float: left;
-    margin: 1% 2%;
-}
-
-.tqiw-heading3{
-    width: 62%;
-}
-.tqiw-heading4{
-    position: absolute;
-    right: 10%;
-    top: 6%;
-}
-.tqiw-heading5{
-    font-weight: 600;
-    font-size: 24px;
-    color: #2599c9;
-    width: 51%;
-    float: right;
-}
-*/
-
-.heading{
+.tqiw-pages-header-tagline > h4{
     font-weight: bolder;
-    font-size: 26px;
-    color: #2599c9;
+    font-size: 20px;
+    color: #36ADC1;
     margin: 0;
-    float: left;
+    /*float: left;*/
 }
+
 .header-underline{
     display: block;
     width: 27%;
@@ -126,36 +99,68 @@ body{
     border-radius: 20px;
     margin-top: 2%;
 }
-.tqiw-video{
-    float: left;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    background: #fff;
-}
-.tqiw-menu-sidebar{
-    float: left;
-    /* height: 100%; */
-    background-color: #dfefac;
-    width: 20%;
-    border: 1px solid;
-    border-color: #dfefac;
-    /* box-shadow: 4px 0px 5px #dfefac; */
-    padding: 30px 0px;
-    margin-right: 30px;
-    /* padding-left: 0px; */
-    position: relative;
-    box-shadow: 3px 0 14px -2px rgba(74, 71, 71, 0.4);
+.dont-miss-button{
+    border: 0;
+    text-transform: uppercase;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #36ADC1;
+    border-radius: 50px 0px 0px 50px;
+    width: 163px;
+    font-size: 12px;
+    /* border: 1px solid; */
+    /* box-shadow: 0px 6px 6px #bbb; */
+    box-shadow: 0px 3px 12px 0px #aaa;
+    
+    border-color: #36ADC1;
+    outline: 0;
+    transition: 0.4s;
+    /* float: right; */
+    position: absolute;
+    right: 0px;
+    top: 30px;
 }
 
+.dont-miss-button:hover{
+    width: 170px;
+    border: 1px solid #127E89;
+    
+}
+/* header css ends */
+
+/* home banner css */
+    .tqiw-video{
+        float: left;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        background: #fff;
+    }
+/* home banner css ends */
+
+/* home content css */
 .tqiw-home-menu-list {
     float: left;
     width: 25%;
     padding: 30px;
 }
-
 .menu-list {
     margin-top: 25%;
+}
+.home-menus > li:hover{
+    color: #ea4d4d;
+    font-weight: bold;
+}
+.home-menus > li > span{
+    display: block;
+    height: 2px;
+    width: 0%;
+    transition: .4s;
+    background: #36ADC1;
+}
+.home-menus > li:hover >span{
+    width: 15%;
 }
 
 .menu-heading {
@@ -165,7 +170,7 @@ body{
     color: #36adc1;
 }
 
-.menu-underline {
+.menu-heading > span{
     display: block;
     width: 23%;
     background: #e7c4ca;
@@ -186,442 +191,87 @@ body{
     transition: .5s;
 }
 
-.offerings-menus-list {
-    float: left;
-    width: 22%;
-    margin-top: 3%;
-}
-
-.offerings-menu-list2 {
+.offerings-menu-list {
     margin-top: 40%;
 }
-
-
-
 .join-us-menu-list {
-    float: left;
-    width: 22%;
-    margin-top: 3%;
-}
-
-.join-us-menu-list2 {
     margin-top: 15%;
 }
-
-
-
 .events-menu-list {
     margin-top: 38%;
     margin-bottom: 25%;
 }
-
-
-.networking-menus-list {
-    float: left;
-    width: 22%;
-    margin-top: 3%;
-    margin-left: 5%;
-}
-
-.networking-list {
+.networking-menu-list {
     margin-top: 90%;
 }
 
-.home-menus > li:hover{
-    color: #ea4d4d;
-    font-weight: bold;
-}
-.home-menus > li > span{
-    display: block;
-    height: 2px;
-    width: 0%;
-    transition: .4s;
-    background: #57caf9;
-}
-.menus-list2:hover >span{
-    width: 15%;
-}
 
-@media (max-width: 800px){
-    .networking-menus-list{
-        float: right;
-        width: 22%;
-        margin-top: 3%;
-        margin-right: 20%;
-    }
+
+.tqiw-content-block{
+    float: left;
+    width: 80%;
+}
+ @media (max-width: 800px){
     
-    .join-us-menu-list{
-        clear: both;
-        margin-left: 4%;
+    .tqiw-content-block{
+        width: 100%;
+        float: left;
     }
-    
-    .offerings-menus-list{
-        float: right;
-        margin-right: 20%;
-        transition: 0.5s;
+    .offerings-menu-list,.menu-list,.join-us-menu-list,.networking-menu-list,.events-menu-list{
+         margin-top: 10%;
     }
-    
-    .about-us-menu-list{
-        clear: both;
+
+    .tqiw-home-menu-list{
+        width: 50%;
+        /* padding: 10px; */
     }
-    .networking-list {
-        margin-top: 26%;
-}
-}
+    .tqiw-menu-sidebar{
+        width: 0px;
+    }
+} 
 
-/*
-.tqiw-menu-heading{
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #36adc1;
-    margin-top: 29%;
-}
-*/
-/*
-.about-us-underline{
-    display: block;
-    width: 23%;
-    background: #e7c4ca;
-    height: 4px;
-    margin-top: 3px;
-    border-radius: 20px;
-}
-*/
-.about-us-list > ul > li{
-   list-style-type: none;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: .5s;
-    /* font-weight: 100; */
-}
-.about-us-list > ul {
-    list-style-type: none;
-    padding: 0px;
-}
-/*
-.about-us-list >.rahul{
-    margin-top: 11%;
-    width: 0;
-    transition: .5s;
-}
-*/
-
-/*
-.rahul >span {
-    display: block;
-    height: 3px;
-    width: 0;
-    transition: .4s;
-    background: pink;
-}
-*/
-/*
-.offerings-menu-list{
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #36adc1;
-}
-*/
-
-/*
-.offerings-underline{
-    display: block;
-    width: 26%;
-    background: #e7c4ca;
-    height: 4px;
-    margin-top: 3px;
-    border-radius: 20px;
-}
-*/
-/*
-.joinus-menu-list{
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #36adc1;
-}
-*/
-.joinus-underline{
-    display: block;
-    width: 22%;
-    background: #e7c4ca;
-    height: 4px;
-    margin-top: 3px;
-    border-radius: 20px;
-}
-/*
-.networking-menu-list{
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #36adc1;
-    margin-top: 122%;
-}
-*/
-/*
-.networking-underline{
-    display: block;
-    width: 22%;
-    background: #e7c4ca;
-    height: 4px;
-    margin-top: 3px;
-    border-radius: 20px;
-}
-*/
-/*
-.footer-privacy{
+.home-body{
+    width: 100%;
+    display: flex;
     float: left;
-    border: 0;
-    margin-left: 41.5%;
-    border-right: 1px solid;
-    margin-top: 3%;
-}
-*/
-
-
-.about-us-list>.rahul:hover >span{
-    width: 40px;
-}
-
-.rahul:hover{
-    color: black;
-    transition: 0.5s;
-    font-weight: 400;
-}
-
-.library:hover{
-    color: black;
-    transition: 0.5s;
-    font-weight: 400;
-}
-
-/*
-.membership:hover{
-    color: black;
-    transition: 0.5s;
-    font-weight: 500;
-}
-*/
-
-.past:hover{
-    color: black;
-    transition: 0.5s;
-    font-weight: bold;
-
-}
-
-.library >span{
-    display: block;
-    height: 3px;
-    width: 0;
-    transition: .4s;
-    background: pink;
-}
-.offering-list >.library:hover >span{
-    width: 40px;
-}
-
-.membership >span{
-    display: block;
-    height: 3px;
-    width: 0;
-    transition: .4s;
-    background: pink;
-}
-
-.join-us-list >.membership:hover >span{
-    width: 40px;
-}
-
-.past >span{
-    display: block;
-    height: 3px;
-    width: 0;
-    transition: .4s;
-    background: pink;
-}
-
-.past-event >.past:hover >span{
-    width: 40px;
+    padding: 0px 30px;
 }
 
 
-
-.members-profile >span{
-    display: block;
-    height: 3px;
-    width: 0;
-    transition: .4s;
-    background: pink;
-}
-
-.networking >.members-profile:hover >span{
-    width: 40px;
-}
-
-<<<<<<< HEAD
-/*
-    .members-profile:hover{
-        color: black;
-        transition: 0.5s;
-        font-weight: bold;
-
-    }
-*/
-=======
-.members-profile:hover{
-    color: black;
-    transition: 0.5s;
-    font-weight: bold;
-
-}
->>>>>>> 1f1d1d3bb233da4180c1c7c831bba6260a0b8cf3
-
-.about-us-list{
-    float: left;
-    width: 22%;
+.scroller{
+    height: calc(100% - 120px);
+    overflow-y: scroll;
+    width: 100%;
+    overflow-x: hidden;
     padding: 30px;
-/*    margin-top: 7%;*/
-    margin-left: 4%;
 }
+/* home content css ends  */
 
-.list-item > span{
-    display: block;
-    width: 0px;
-    background: pink;
-    height: 2px;
-    transition:.4s;
-}
-.list-item:hover > span{
-    width: 40px;
-}
+/* footer css  */
 
-.list-item1{
-    margin-top: 24%;
-}
-
-.list-item1 >span{
-    display: block;
-    width: 0;
-    background: pink;
-    height: 2px;
-    transition: .4s;
-}
-/*
-.list-item:hover{
-    color: black;
-    font-weight: 700;
-    transition: 0.5s;
-}
-*/
-
-.offering-list >li{
-    list-style-type: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-/*
-.offering-list{
-    float: left;
-    transition: 0.4s;
-    width: 22%;
-    padding: 30px;
-    margin-top: 13%;
-}
-*/
-.offering-list >.library{
-    margin-top: 11%;
-}
-/*
-.join-us-list{
-    float: left;
-    width: 22%;
-    padding: 30px;
-    margin-top: 3%;
-}
-*/
-.join-us-list >li{
-    list-style-type: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-.join-us-list > .membership{
-    margin-top: 11%;
-}
-.event-list{
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-top: 39%;
-    color: #36adc1;
-}
-
-.event-list > span{
-    display: block;
-    width: 23%;
-    transition: 0.5s;
-    height: 4px;
-    background-color: pink;
-    border-radius: 20px;
-    margin-top: 5px;
-}
-.past-event> li{
-    list-style-type: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-.past-event> .past{
-    margin-top: 24%;
-}
-.past-event{
-    width: 56%;
-}
-
-/*
-.home-networking{
-    float: left;
-    width: 22%;
-}
-*/
-.home-networking >li{
-    list-style-type: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-.home-networking >.members-profile{
-    margin-top: 16%;
-}
 .home-footer{
     clear: both;
     background-color: #b3ddef;
     height: 150px;
     border: 1px solid;
     border-color: #b3ddef;
-    box-shadow: 20px 25px 40px 20px #756f6f;
+    box-shadow: 0 -2px 15px -2px #aaa;
     position: relative;
 }
 .home-footer > ul{
-    display: inline-block;
-    font-size: 11.5px;
+    font-size: 11px;
     float: left;
     text-align: center;
     margin-top: 2%;
-    width: 98%;
+    width: 100%;
+    padding: 0px;
 }
-.home-footer > ul >.list-1{
+.home-footer > ul > li{
     display: inline-block;
     border-right: 1px solid;
     padding: 0px 1.5%;
 }
-.home-footer > ul >.list-2{
-    display: inline-block;
-    padding: 0px 11px;
-    border: 0;
-}
-.home-footer > .ul-2{
+.home-footer > ul:last-child{
     display: inline-block;
     font-size: 11.5px;
     float: left;
@@ -630,15 +280,12 @@ body{
     width: 98%;
     text-align: center;
 }
-.home-footer > .ul-2 > .list-3{
+.home-footer > ul:last-child > li{
     display: inline-block;
     border-right: 1px solid;
     padding: 0px 7px
 }
-.home-footer > .ul-2 > .list-4{
-    display: inline-block;
-    padding: 0px 7px
-}
+
 .footer{
     clear: both;
     background-color: #b3ddef;
@@ -683,185 +330,117 @@ body{
     border: none;
 }
 
+/* footer css ends */
 
-.dont-miss-button{
-    border: 0;
-    text-transform: uppercase;
-    height: 47px;
-    color: white;
-    font-weight: 600;
-    background-color: #57caf9;
-    border-radius: 0px 50px 48px 0px;
-    width: 86%;
-    font-size: 12px;
-    border: 1px solid;
-    box-shadow: 0px 6px 6px #bbb;
-    border-color: #57caf9;
-    outline: 0;
-    transition: 0.4s;
+/* sidebar css  */
+.margin-right30{
+    margin-right: 30px;
+    margin-left: -30px;    
+}
+.tqiw-menu-sidebar{
     float: left;
-    position: absolute;
-    margin-left: -1%;
+    overflow: hidden;
+    /* height: 100%; */
+    background-color: #dfefac;
+    width: 20%;
+    border: 1px solid;
+    border-color: #dfefac;
+    /* box-shadow: 4px 0px 5px #dfefac; */
+    padding: 30px 0px;
+    /* margin-right: 30px; */
+    /* margin-left: -30px; */
+    /* padding-left: 0px; */
+    position: relative;
+    box-shadow: 3px 0 14px -2px rgba(74, 71, 71, 0.4);
+    transition: .3s;
 }
-
-.dont-miss-button:hover{
-    width: 88%;
-    border: 1px solid #ac9292;
-}
-.your-membership-button{
-    border: 0;
+.sidebar-button{
     text-transform: uppercase;
     height: 50px;
-    color: black;
+    border: 0;
     font-weight: 600;
-    background-color: white;
-    border-radius: 0px 50px 49px 0px;
+    border-radius: 0px 50px 48px 0px;
     width: 68%;
+    height: 48px;
     font-size: 12px;
-    margin: 7% 0%;
+    /* border: 1px solid; */
+    box-shadow: 0px 3px 12px 0px #aaa;
+    /* border-color: #36ADC1; */
+    background: #fff;
+    color: black;    
     outline: 0;
-    border: 1px solid;
-    box-shadow: 0px 6px 6px #bbb;
-    border-color: white;
-    outline: 0;
-    transition: .4s;
-    margin-left: -1%;
+    transition: 0.4s;
+    margin-bottom: 7%;
 }
-.your-membership-button:hover{
+.sidebar-button:hover{
     width: 71%;
-    border: 1px solid #ac9292;
 }
-
+.dont-miss-button-sidebar{
+    color: white;
+    background-color: #36ADC1;
+    margin-left: 0%;
+    margin-top: 7%;
+    border: 1px solid #36ADC1;    
+}
+.dont-miss-button-sidebar:hover{
+    border: 1px solid #127E89;
+}
 .two-buttons{
     position: absolute;
     bottom: 10%;
 }
-.feedback-button{
-    border: 0;
-    text-transform: uppercase;
-    height: 50px;
-    color: black;
-    font-weight: 600;
-    background-color: white;
-    border-radius: 0px 50px 49px 0px;
-    width: 68%;
-    font-size: 12px;
-    outline: 0;
-    border: 1px solid;
-    box-shadow: 0px 6px 6px #bbb;
-    border-color: white;
-    outline: 0;
-    transition: .4s;
-    margin-left: -1%;
-}
-.feedback-button:hover{
-    width: 71%;
-    border: 1px solid #ac9292;
-}
-.allbuttons-2{
-    float: left;
+/* sidebar css ends  */
+
+
+
+/* common pages Css  */
+
+.page-body{
+    width: 100%;
+    display: flex;
     height: 100%;
-    background-color: #c8e6f4;
-    width: 20%;
-    border: 1px solid;
-    border-color: #c8e6f4;
-    box-shadow: 3px 84px 5px #c6e5c6;
-    padding: 30px;
-    padding-left: 0px;
-    position: relative;
-}
-.tqiw-pages-header-text{
     float: left;
-    width: 29%;
-    margin-top: 2.6%;
-/*    margin-left: 5%;*/
-}
-.tqiw-pages-header-text > h4{
-    font-weight: bolder;
-    font-size: 20px;
-    color: #36ADC1;
-    margin: 0;
-    /*float: left;*/
+    position: relative;
+    /* padding: 0px 30px; */
 }
 
-.dont-miss-button{
-    text-transform: uppercase;
-    height: 49px;
-    color: white;
-    font-weight: 600;
-    background-color: #36ADC1;
-    border-radius: 50px 0px 0px 49px;
-    width: 86%;
-    font-size: 12px;
+.page-heading-block {
+    width: 80%;
+    float: left;
+    float: left;
+    background-color: #9AD6E0;
+    width: 100%;
+    /* height: 85px; */
     border: 1px solid;
-    /* box-shadow: 0px 6px 6px #bbb; */
-    box-shadow: 2px 4px 8px -2px rgba(74, 71, 71, 0.4);
-    border-color: #36ADC1;
-    outline: 0;
-    transition: 0.4s;
+    border-color: #9AD6E0;
+    box-shadow: 2px 3px 8px #bfb5b5;
+    opacity: 0.8;
+    padding: 11px 60px;
+    transition: .8s;
+    
+}
+
+.side-icons {
     float: right;
-    position: absolute;
-    right: 0;
-    /* left: 81%; */
-    top: 24%;
-    color: #fff;
-    width: 163px;
 }
-.dont-miss-button:hover{
-    width: 166px;
-    border: 1px solid #127E89;
-}
-.two-buttons-2{
-    position: absolute;
-    bottom: 30%;
-}
-.offering{
-    width: 80%;
-    float: left;
-}
-.offering-description {
-    float: left;
-    background-color: #ef9877;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #ef9877;
-    box-shadow: -1px 3px 8px #bfb5b5;
-}
-.offering-heading{
-    font-size: 38px;
+.section-heading{
     text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 7.5%;
-    margin-top: 2.3%;
+    color: #41adda;
+    font-weight: bold;
+    margin: 30px 0px;
 }
-.about-us {
-    width: 80%;
-    float: left;
+.section-heading > span,.section-heading-description > span{
+    display: block;
+    width: 10%;
+    transition: 0.5s;
+    height: 4px;
+    background-color: #e2e9ec;
+    border-radius: 20px;
+    margin-top: 8px;
 }
-.advertorials-description {
-    float: left;
-    background-color: #89c9e2;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: -1px 3px 8px #bfb5b5;
-}
-.advertorials-heading {
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.about-us-heading{
-    width: 80%;
-    float: left;
+.section-heading-description {
+    /* padding-top: 34px; */
+    margin-bottom: 30px;
 }
 .about-us-description{
     float: left;
@@ -881,238 +460,20 @@ body{
     margin-left: 5%;
     margin-top: 2.3%;
 }
-.diagnostics {
-    width: 80%;
-    float: left;
-}
 
-.diagnostics-heading-2{
-    text-transform: uppercase;
-    color: #41adda;
-    font-weight: bold;
-    font-size: 24px;
-}
-.diagnostics-heading{
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.disclosure {
-    width: 80%;
-    float: left;
-}
-.disclosure-description {
+.advertorials-description {
     float: left;
     background-color: #89c9e2;
     width: 100%;
     height: 85px;
     border: 1px solid;
     border-color: #89c9e2;
-    box-shadow: 0px 5px 5px #89c9e2;
+    box-shadow: -1px 3px 8px #bfb5b5;
 }
-.disclosure-heading {
+.page-heading {
     font-size: 38px;
     text-transform: uppercase;
     font-weight: 600;
     color: white;
     float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.founders{
-    width: 80%;
-    float: left;
-}
-.founders-description{
-    float: left;
-    background-color: #89c9e2;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: 0px 5px 5px #89c9e2;
-}
-.founders-heading0{
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.governance{
-    width: 80%;
-    float: left;
-}
-.governace-description{
-    float: left;
-    background-color: #89c9e2;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: 0px 5px 5px #89c9e2;
-}
-.governance-heading{
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.intentional{
-    width: 80%;
-    float: left;
-}
-.intentional-description{
-    float: left;
-    background-color: #89c9e2;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: 0px 5px 5px #89c9e2;
-    opacity: 0.8;
-}
-.intentional-heading{
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.join-us{
-    width: 80%;
-    float: left;
-}
-.join-us-heading{
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.join-us-description{
-    float: left;
-    background-color: #e0abb5;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #e0abb5;
-    box-shadow: 0px 5px 5px #e0abb5;
-}
-.networking{
-    float: left;
-    width: 80%;
-}
-.networking-description{
-    float: left;
-    background-color: #e8d788;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #e8d788;
-    box-shadow: 0px 5px 5px #e8d788;
-}
-.networking-heading {
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.values-description0 {
-    width: 80%;
-    float: left;
-}
-.values-description1 {
-    float: left;
-    background-color: #89c9e2;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #89c9e2;
-    box-shadow: 0px 5px 5px #89c9e2;
-}
-.values-description2 {
-    font-size: 38px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    float: left;
-    margin-left: 5%;
-    margin-top: 2.3%;
-}
-.scroller{
-    height: calc(100% - 204px);
-    overflow-y: scroll;
-    width: 80%;
-    overflow-x: hidden;
-}
-
-.side-icons {
-    float: right;
-    margin-right: 5%;
-    margin-top: 1%;
-}
-
-.aboutus-page-heading {
-    float: left;
-    background-color: #9AD6E0;
-    width: 100%;
-    height: 85px;
-    border: 1px solid;
-    border-color: #9AD6E0;
-    box-shadow: 2px 3px 8px #bfb5b5;
-    opacity: 0.8;
-}
-
-
-/*by jatin  */
-.tqiw-content-block{
-    float: left;
-    width: 80%;
-}
-.home-body{
-    width: 100%;
-    display: flex;
-    float: left;
-}
-.dont-miss-button-s{
-    border: 0;
-    text-transform: uppercase;
-    height: 47px;
-    color: white;
-    font-weight: 600;
-    background-color: #57caf9;
-    border-radius: 0px 50px 48px 0px;
-    width: 68%;
-    height: 48px;
-    font-size: 12px;
-    border: 1px solid;
-    box-shadow: 0px 6px 6px #bbb;
-    border-color: #57caf9;
-    outline: 0;
-    transition: 0.4s;
-    float: left;
-    position: absolute;
-    margin-left: -1%;
-    top: 7%;
-}
-.dont-miss-button-s:hover{
-    width: 71%;
-    border: 1px solid #ac9292;
 }

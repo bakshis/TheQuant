@@ -45,15 +45,7 @@
     padding-top: 34px;  
 }
 
-.advertorials-underline{
-    display: block;
-    width: 10%;
-    transition: 0.5s;
-    height: 4px;
-    background-color: #e2e9ec;
-    border-radius: 20px;
-    margin-top: 8px;
-}
+
 
 .input-field-start{
     float: left;
@@ -247,21 +239,15 @@
     padding: 8px;
 }
 
-.advertorials-description-2 {
+/* .advertorials-description-2 {
     float: left;
     width: 51%;
     margin: 4% 4.5%;
-}
+} */
 
-.advertorials-heading-2 {
-    text-transform: uppercase;
-    color: #41adda;
-    font-weight: bold;
-}
 
-.description-advertorials {
-    padding-top: 34px;
-}
+
+
 
 .adver-text-color {
     color: #4aadd6;
