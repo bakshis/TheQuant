@@ -1,8 +1,10 @@
 
+/*
 .internships {
     float: left;
     width: 80%;
 }
+*/
 
 .internships-description {
     float: left;
@@ -14,6 +16,7 @@
 /*    box-shadow: -1px 3px 8px #bfb5b5;*/
 }
 
+/*
 .internships-heading {
     font-size: 38px;
     text-transform: uppercase;
@@ -23,6 +26,7 @@
     margin-left: 5%;
     margin-top: 2.3%;
 }
+*/
 
 .internships-heading1 {
     float: left;
