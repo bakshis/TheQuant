@@ -667,3 +667,19 @@ select{
 .disclosure-list-hover2 > li:hover{
     color: #b3c893;
 }
+
+.diagnostics-paragraph-bold {
+    font-weight: bold;
+}
+
+.tqiw-side-grid {
+    float: left;
+    width: 51%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+.diagnostics-links {
+    color: #739073;
+    font-size: 11px;
+}
