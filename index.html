@@ -6,7 +6,9 @@
                <title>The Quantum Institute for Wellbeing | TQIW – A Community of Seekers collaborating for Personal Wellbeing</title>
                <link rel="stylesheet" type="text/css"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
                <link href="./css/style.css" rel="stylesheet">
-               <link href="./css/disclosure.css" rel="stylesheet">
+               <!-- <link href="./css/membership.css" rel="stylesheet"> -->
+               
+               <!-- <link href="./css/disclosure.css" rel="stylesheet">
                <link href="./css/founders.css" rel="stylesheet">
                <link href="./css/governance.css" rel="stylesheet">
                <link href="./css/Join Us.css" rel="stylesheet">
@@ -24,7 +26,7 @@
                <link href="css/innternships.css" rel="stylesheet">
                <link href="./css/Advertorials.css" rel="stylesheet">
                <link href="css/event-support.css" rel="stylesheet">
-               <link href="css/demo.css" rel="stylesheet">
+               <link href="css/demo.css" rel="stylesheet"> -->
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         </head>
@@ -149,10 +151,32 @@
                           <div class="networking-menu-list">
                            <h5 class="menu-heading">Networking<span class=""></span></h5>
                             <ul class="home-menus">
-                                <li class="">Members Proﬁle<span></span></li>
-                                <li class="">E-Library<span></span></li>
-                                <li class="">Members<br> Experience<span></span></li>
-                                <li class="">Advisory<span></span></li>
+                                <li class="">
+                                    <a data-toggle="modal" data-target="#login-Modal">Members Proﬁle
+                                    </a>
+                                    <span></span>
+                                </li>
+                                <li class="">
+                                    <a data-toggle="modal" data-target="#login-Modal">
+                                        E-Library
+                                    </a>
+                                    <span></span>
+                                    
+                                </li>
+                                <li class="">
+                                    <a data-toggle="modal" data-target="#login-Modal">
+                                        Members<br> Experience
+                                    </a>
+                                        <span></span>
+                                    
+                                </li>
+                                <li class="">
+                                    <a data-toggle="modal" data-target="#login-Modal">
+                                        Advisory
+                                        </a>
+                                    <span></span>
+                                   
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -178,5 +202,66 @@
                 
             </div>
             
+
+
+            <div class="modal fade in loginModal" id="login-Modal" role="dialog">
+                <div class="modal-dialog " >
+                    <div class="modal-content" >
+                    <div class="modal-body" style="border: 0; text-align: center;">
+                        <div style="text-align: center;">
+                            
+                            <form action="" class="login-form">
+                                <label class="floating-label">
+                                    <input type="text" class="floating-input" required/>
+                                    <span class="floating-text">Employee ID</span>
+                                </label>
+                                 <label class="floating-label">
+                                    <input type="password" class="floating-input" required/>
+                                    <span class="floating-text">Password</span>
+                                </label>
+                                <div class="inputBlock">
+                                    <div class="tqiw-square-radio">
+                                        <input type="checkbox" value="None" id="showpass" name="showpass">
+                                        <label for="showpass"></label>
+                                    </div>
+                                    <span>Show Password</span>
+                                </div>
+                                <div class="inputBlock pull-right">
+                                    <div class="tqiw-square-radio">
+                                        <input type="checkbox" value="None" id="remember" name="remember">
+                                        <label for="remember"></label>
+                                    </div>
+                                    <span>Remember Me</span>
+                                </div>
+
+                                 <button class="login-button">LOGIN</button>
+                                 
+                                 <div style="text-align: center;font-size: 10px;">
+                                    <a href="#" style="color: black;">Forgot Password?</a> 
+                                </div>
+                                 
+                            </form>
+                            <div>
+                                <div>
+                                
+                                </div>
+                                <div style="margin-top: 6%;float: left;float: left;width: 96%;margin-left: -28%;">
+                                    
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top: 6%;float: left;margin-left: 13%;">
+                                
+                            </div>
+                            
+                            <div class="login">
+                               
+                            </div>
+                                
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </body> 
 </html>

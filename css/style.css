@@ -57,8 +57,8 @@ body{
     
 }
 .tqiw-row{
-    margin-left: -30px;
-    margin-right: -30px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 /*header css*/
@@ -164,9 +164,10 @@ body{
 .menu-list {
     margin-top: 25%;
 }
-.home-menus > li:hover{
+.home-menus > li > a:hover{
     color: #ea4d4d;
     font-weight: bold;
+    text-decoration: none;
 }
 .home-menus > li > span{
     display: block;
@@ -205,6 +206,11 @@ body{
     cursor: pointer;
     margin-top: 10px;
     transition: .5s;
+}
+
+.home-menus > li > a{
+    color: #333;
+    font-size: 14px;
 }
 
 .offerings-menu-list {
@@ -475,7 +481,9 @@ body{
     font-weight: bold;
     margin: 30px 0px;
 }
-.section-heading-description > span{
+.section-heading-description > span, 
+.section-description > span, 
+.section-subheading > span{
     display: block;
     width: 50px;
     transition: 0.5s;
@@ -486,12 +494,13 @@ body{
 }
 .section-heading-description > span.index-count,.index-count{
     color: #ea4d4d;
-    height: 0px;
-    display: inline;
-    background: none;
+    height: 0px !important;
+    display: inline !important;
+    background: none !important;
     font-family: lato black;
     margin-right: 5px;
 }
+
 .section-heading-description,.section-description{
     /* padding-top: 34px; */
     margin-bottom: 30px;
@@ -628,6 +637,148 @@ body{
     padding: 2%;
 }
 /* form css ends */
+
+/* modal css  */
+.loginModal > .modal-dialog{
+    width: 350px;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.loginModal  .modal-content{
+    box-shadow: none;
+    min-height: 355px;
+    border-radius: 0;
+    background-color: #cfe698;
+    border: 1px;
+    width: 100%;
+}
+.modal-backdrop{
+    background-color: #fff;
+}
+.modal-backdrop.in{
+    opacity: .9
+}
+.floating-input{
+    font-size: 14px;
+    /* width: 200px; */
+    height: 35px;
+    border: 0;
+    outline: 0;
+    background-color: #cfe698;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 0px;
+    /* position: absolute; */
+    /* background: 0; */
+}
+.floating-label {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.floating-text {
+    position: absolute;
+    /* pointer-events: none; */
+    left: 0px;
+    top: 13px;
+    /* transition: 22.2s ease all; */
+    color: #36ADC1;
+    font-size: 12px;
+    transition: 0.3s;
+}
+input:focus ~ .floating-text,
+input:not(:focus):valid ~ .floating-text{
+  top: -12px;
+  /* bottom: 10px; */
+/*  left: 19%;*/
+  font-size: 10px;
+  opacity: 1;
+}
+.login-form{
+    width: 70%;
+    margin: 30px auto;
+}
+.login-button {
+    color: white;
+    font-weight: bold;
+    background-color: #36adc1;
+    border: 1px solid #36ADC1;
+    width: 100%;
+    color: white;
+    outline: 0;
+    box-shadow: 0px 3px 6px #bbb;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 15px 0px;
+    transition: .3s
+}
+.tqiw-square-radio{
+    width: 12px;
+    height: 12px;
+    background: #fcfff4;
+    box-shadow: none;
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead', GradientType=0);
+    margin: 0px;
+    position: relative;
+    border: 1px solid #36ADC1;
+    overflow: hidden;
+}
+
+.tqiw-square-radio input {
+    position: absolute;
+    left: -99999px;
+    margin-top: -6px;
+    overflow: hidden;
+}
+.tqiw-square-radio label{
+
+        cursor: pointer;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 2px;
+    top: 2px;
+    margin-bottom: 0px;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d', GradientType=0);
+}
+.tqiw-square-radio label:after{
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #36ADC1;
+    top: 0px;
+    left: 0px;
+}
+.tqiw-square-radio input[type=checkbox]:checked+label:after, 
+.tqiw-square-radio input[type=checkbox]:checked+label:after{
+    opacity: 1;
+}
+.inputBlock{
+    display: inline-block;
+    float: left;
+    margin-bottom: 15px;
+    /* margin-right: 5px; */
+}
+.inputBlock > div,.inputBlock > span{
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: middle;
+    color: #333;
+}
+/* modal css ends  */
 select{
     color: #ccc;
 }
