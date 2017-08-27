@@ -1,0 +1,291 @@
+/*
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+*/
+/*
+.tqiw-logo-and-heading{
+    float: left; 
+    width: 100%;
+}
+.tqiw-heading{
+    margin: 2% 4%;
+    float: left;
+}
+.tqiw-logo{
+    width:8%;
+    float: left;
+}
+.tqiw-2headings{
+    float: left;
+    margin: 1% 2%;
+}
+.tqiw-heading1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+.tqiw-heading2{
+    width: 62%;
+}
+.tqiw-main-heading{
+    position: absolute;
+    right: 42%;
+    top: 4%;
+}
+*/
+/*
+.heading{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2599c9;
+    width: 51%;
+    float: right;
+}
+*/
+/*
+.header-underline{
+    display: block;
+    width: 11%;
+    background: #b9ddeb;
+    height: 4px;
+    transition:.4s;    
+    position: absolute;
+    top: 95%;
+    border-radius: 20px;
+}
+*/
+/*
+.button{
+    position: absolute;
+    right: 13%;
+    top: 6%;
+}
+*/
+.bottons-zone{
+    float: left;
+    height: 5500px;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+/*
+.allbuttons{
+    float: left;
+    height: 78.8%;
+    background-color: #c8e6f4;
+    width: 20%;
+    border: 1px solid;
+    border-color: #c8e6f4;
+    box-shadow: 3px 0px 5px #c6e5c6;
+    padding: 30px;
+    padding-left: 0px;
+    position: relative;
+}
+*/
+/*
+.offering{
+    width: 80%;  
+    float: left;
+}
+*/
+/*
+.offering-heading{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 8%;
+    margin-top: 19px;
+}
+*/
+.diagnostics-description-2{
+    float: left;
+    margin: 4% 5%;
+    width: 47%;
+}
+/*
+.diagnostics-heading-2{
+    text-transform: uppercase;
+    color: #41adda;
+    font-weight: bold;
+    font-size: 24px;
+}
+*/
+.diagnostics-description-3{
+    padding-top: 7%;
+    font-size: 13px;
+    margin: 0;
+}
+.diagnostics-description-4{
+    float: right;
+    width: 50%;
+    margin-right: 25%;
+}
+.heading-bold{
+    font-weight: bold;
+}
+.diagnostics-heading-4{
+    margin: 0 0 0;
+}
+.diagnostics-underline{
+    display: block;
+    height: 4px;
+    width: 10%;
+    background-color: #e2d3ce; 
+    border-radius: 120px;
+    margin-top: 3px;
+}
+/*
+.description3{
+    float: right;
+    width: 50%;
+    margin-right: 23%;
+    margin-top: 4%;
+}
+*/
+/*
+.heading2{
+    font-weight: bold;
+}
+*/
+.description4{
+    margin: 0 0 0;
+}
+/*
+.images{
+    float: left;
+    width: 80%;
+    padding-left: 5%;
+    margin-top: 4%;
+}
+*/
+/*
+.image-fruit{
+    float: left;
+    width: 50%;
+}
+*/
+/*
+.image1{
+    width: 83%;
+}
+*/
+/*
+.image-massage{
+    float: left;
+    width: 50%;
+}
+*/
+/*
+.image2{
+    width: 90%;
+}
+*/
+/*
+tqiw-side-grid{
+    float: left;
+    width: 51%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+*/
+/*
+.description6{
+    margin: 0 0 0;
+}
+*/
+/*
+.description7{
+    float: right;
+    width: 55%;
+    margin-right: 16%;
+    margin-top: 4%;
+}
+*/
+/*
+.heading5{
+    font-weight: bold;
+}
+*/
+.description8{
+    margin: 0 0 0;
+}
+/*
+.diagnostics-links{
+    color: #739073;
+    font-size: 11px;
+}
+*/
+.link-2:hover{
+    color: #739073;
+    text-decoration: none;   
+}
+
+
+/*
+.diagnostics-heading{
+        font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 2.3%;
+}
+*/
+
+/*
+.diagnostics {
+    width: 80%;
+    float: left;
+}
+*/
+
+.bold-sentence {
+    font-size: 12px;
+}
+
+.diagnostics-heading-6 {
+    font-weight: bold;
+}
+
+.diagnostics-description-6 {
+    margin: 0 0 0; 
+    width: 96%;
+    padding-top: 10px;
+}
+
+.diagnostics-description-7 {
+    float: left;
+    width: 54%;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+.diagnostics-description-8 {
+    margin: 0 0 0;
+    width: 93%;
+}
+
+.diagnostics-description-9 {
+    float: left;
+    width: 51%;
+    margin-left: 24%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.diagnostics-description-10 {
+/*    margin: 0 0 0;*/
+}
+
+
