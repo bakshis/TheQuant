@@ -883,3 +883,18 @@ select{
     color: #739073;
     font-size: 11px;
 }
+
+/* gallery page  */
+.galleryInfo{
+    margin: 15px 0px;
+    font-size: 14px;
+    color: #333;
+}
+.galleryInfo > b{
+    font-family: lato black
+}
+.galleryInfo > a,.tqiw-blue-link{
+    font-style: italic;
+    color: #36ADC1;
+    font-size: 14px;
+}
