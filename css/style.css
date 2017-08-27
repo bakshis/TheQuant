@@ -28,8 +28,21 @@ body{
     overflow-y: hidden;
     height: 100%;
 }
+.noPadding{
+    padding: 0px !important;
+}
+.noMargin{
+    margin: 0px !important;
+}
 
-.tqiw-grid-1{
+.tqiw-grid-1-clear,
+.tqiw-grid-2-clear,
+.tqiw-grid-3-clear,
+.tqiw-grid-4-clear{
+    clear: left;
+}
+.tqiw-grid-1,
+.tqiw-grid-1-clear{
     width:25%;
     padding: 0px 30px;
     float: left;
@@ -483,7 +496,8 @@ body{
 }
 .section-heading-description > span, 
 .section-description > span, 
-.section-subheading > span{
+.section-subheading > span,
+.tqiw-green-underline{
     display: block;
     width: 50px;
     transition: 0.5s;
@@ -521,6 +535,23 @@ body{
     font-size: 14px;
     font-family: lato black;    
     margin: 30px 0px
+}
+.section-qoute-black,
+.section-qoute-black60{
+    text-transform: capitalize;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: lato black;    
+    /* margin: 30px 0px */
+}
+.section-qoute-black60{
+    width: 60%;
+}
+.blue-text{
+    color: #36ADC1;
+    font-family: lato black;    
+    
 }
 .full-image{
     float: left;
@@ -566,6 +597,16 @@ body{
     background-color: #9AD6E0;
     border-radius: 20px;
     margin-top: 8px;
+}
+.information-blue {
+    /* float: right; */
+    width: 100%;
+    /* margin-right: 16%; */
+     margin-top: 60px; 
+    /* padding-bottom: 10%; */
+    color: #36ADC1;
+    font-size: 12px;
+    font-style: italic;
 }
 /* common page css ends  */
 
@@ -787,22 +828,28 @@ select{
     width: 100%;
     list-style-type: none;
     padding: 0px;
+    margin-bottom: 0px;
     margin-top: 30px;
 }
-.tqiw-link-list > li{
+.tqiw-link-list.tqiw-link-list-33 > li{
     width: 33.33%;
     padding: 0px 30px;
-    float: left;
-    
+    float: left;    
 }
 
+.tqiw-link-list > li{
+    width: 100%;
+    padding: 0px 30px;
+    float: left;
+    margin-bottom: 30px;
+}
 .tqiw-link-list > li > a {
     cursor: pointer;
     font-size: 12px;
     /* font-weight: 600; */
     font-family: lato black;
     text-decoration: none;
-    color: #333;
+    color: #36ADC1;
 }
 .tqiw-link-list > li >span{
     display: block;
