@@ -16,7 +16,8 @@
 }
     
 *{
-    font-family: Lato Regular;  
+    font-family: Lato Regular; 
+    color: #444; 
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Lato Black;
@@ -152,8 +153,8 @@ body{
 }
 
 .dont-miss-button:hover{
-    width: 170px;
-    border: 1px solid #127E89;
+    width: 185px;
+    /* border: 1px solid #127E89; */
     
 }
 /* header css ends */
@@ -222,7 +223,7 @@ body{
 }
 
 .home-menus > li > a{
-    color: #333;
+    color: #444;
     font-size: 14px;
 }
 
@@ -347,24 +348,28 @@ body{
     margin-top: 120px;
     background-color: #CFE698;
     min-height: 140px;
-    /* border: 1px solid;
-    border-color: #b3ddef; */
     box-shadow: 6px 19px 27px 12px #756f6f;
     width: 100%;
+    padding: 30px 60px;
 }
 .footer > ul{
     display: inline-block;
-    font-size: 9.5px;
+    font-size: 11px;
+    padding: 0px;
     float: left;
-    margin-top: 2%;
-    width: 98%;
-    text-align: center;
+    margin:0px;
+    width: 100%;
+     text-align: center; 
 }
 .footer > ul > li {
     display: inline-block;
     border-right: 1px solid;
     padding: 0px 11px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.footer > ul > li > b{
+    font-family: lato black;
 }
 .footer > ul > .list-3{
     display: inline-block;
@@ -382,6 +387,12 @@ body{
 }
 .footer > .footer-ul{
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.footer > .footer-ul > li {
+    margin: 0px;
 }
 .footer>.footer-ul > .list-2{
     display: inline-block;
@@ -432,7 +443,7 @@ body{
     margin-bottom: 7%;
 }
 .sidebar-button:hover{
-    width: 71%;
+    width: 75%;
 }
 .dont-miss-button-sidebar{
     color: white;
@@ -442,7 +453,7 @@ body{
     border: 1px solid #36ADC1;    
 }
 .dont-miss-button-sidebar:hover{
-    border: 1px solid #127E89;
+    /* border: 1px solid #127E89; */
 }
 .two-buttons{
     position: absolute;
@@ -539,14 +550,15 @@ body{
 .section-qoute-black,
 .section-qoute-black60{
     text-transform: capitalize;
-    color: #333;
+    color: #444;
     font-weight: bold;
     font-size: 20px;
     font-family: lato black;    
     /* margin: 30px 0px */
 }
 .section-qoute-black60{
-    width: 60%;
+    width: 65%;
+    margin-bottom: 30px;
 }
 .blue-text{
     color: #36ADC1;
@@ -574,7 +586,7 @@ body{
 }
 .black-subheading{
     font-size: 18px;
-    color: #333;
+    color: #444;
     font-family: lato black;        
     font-weight: 600;
     margin-bottom: 15px;
@@ -622,7 +634,7 @@ body{
     float: left;
     margin-bottom: 30px;
     transition: .3s;
-    color: #333
+    color: #444
 }
 .tqiw-input::-webkit-input-placeholder{
     color:#ccc;
@@ -680,7 +692,7 @@ body{
     transition: .3s
 }
 .submit-button:hover{
-    border: 1px solid #127E89;
+    /* border: 1px solid #127E89; */
     box-shadow: 0px 5px 12px 0px #aaa;
 }
 .tqiw-textarea{
@@ -833,7 +845,7 @@ input:not(:focus):valid ~ .floating-text{
     display: inline-block;
     font-size: 10px;
     vertical-align: middle;
-    color: #333;
+    color: #444;
 }
 /* modal css ends  */
 select{
@@ -904,7 +916,7 @@ select{
 .galleryInfo{
     margin: 15px 0px;
     font-size: 14px;
-    color: #333;
+    color: #444;
 }
 .galleryInfo > b{
     font-family: lato black
@@ -913,4 +925,16 @@ select{
     font-style: italic;
     color: #36ADC1;
     font-size: 14px;
+}
+/*events page  */
+.tqiw-event-link{
+    display: block;
+    float: left;
+    color: #444;
+    cursor: pointer;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.tqiw-event-link:hover span{
+    color: #36ADC1
 }
