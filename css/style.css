@@ -16,7 +16,8 @@
 }
     
 *{
-    font-family: Lato Regular;  
+    font-family: Lato Regular; 
+    color: #444; 
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Lato Black;
@@ -222,7 +223,7 @@ body{
 }
 
 .home-menus > li > a{
-    color: #333;
+    color: #444;
     font-size: 14px;
 }
 
@@ -539,14 +540,15 @@ body{
 .section-qoute-black,
 .section-qoute-black60{
     text-transform: capitalize;
-    color: #333;
+    color: #444;
     font-weight: bold;
     font-size: 20px;
     font-family: lato black;    
     /* margin: 30px 0px */
 }
 .section-qoute-black60{
-    width: 60%;
+    width: 65%;
+    margin-bottom: 30px;
 }
 .blue-text{
     color: #36ADC1;
@@ -574,7 +576,7 @@ body{
 }
 .black-subheading{
     font-size: 18px;
-    color: #333;
+    color: #444;
     font-family: lato black;        
     font-weight: 600;
     margin-bottom: 15px;
@@ -622,7 +624,7 @@ body{
     float: left;
     margin-bottom: 30px;
     transition: .3s;
-    color: #333
+    color: #444
 }
 .tqiw-input::-webkit-input-placeholder{
     color:#ccc;
@@ -817,7 +819,7 @@ input:not(:focus):valid ~ .floating-text{
     display: inline-block;
     font-size: 10px;
     vertical-align: middle;
-    color: #333;
+    color: #444;
 }
 /* modal css ends  */
 select{
@@ -888,7 +890,7 @@ select{
 .galleryInfo{
     margin: 15px 0px;
     font-size: 14px;
-    color: #333;
+    color: #444;
 }
 .galleryInfo > b{
     font-family: lato black
