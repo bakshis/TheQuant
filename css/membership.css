@@ -138,12 +138,12 @@
 
 .container {
     width: 100%;
-    background-color: #c8e6f4;
+    background-color: #dfefac;
     border: 0;
 }
 
 .list-group-item {
-    background-color: #c8e6f4;
+    background-color: #dfefac;
     border: 0;
     margin: 2% 0%;
 }
@@ -180,7 +180,7 @@
 }
 
 .list-group-item3 {
-    background-color: #c8e6f4;
+    background-color: #dfefac;
     border: 0;
     margin: 1% 8%;
 }

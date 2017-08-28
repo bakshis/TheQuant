@@ -636,6 +636,19 @@ body{
 .tqiw-input:focus{
     border-bottom-color: #36ADC1; 
 }
+.tqiw-textarea::-webkit-input-placeholder{
+    color:#ccc;
+    transition: .3s;
+    
+}
+
+.tqiw-textarea:focus::-webkit-input-placeholder{
+    color:#756f6f;
+}
+.tqiw-textarea:focus{
+    border-color: #36ADC1; 
+}
+
 .tqiw-label{
     font-size: 14px;
     color: #36adc1;
@@ -643,12 +656,12 @@ body{
     display: block;
 }
 .left-field{
-    width: calc(50% - 30px);
+    width: calc(50% - 30px) !important;
     margin-right: 30px;
 }
 
 .right-field{
-    width: calc(50% - 30px);
+    width: calc(50% - 30px) !important;
     margin-left: 30px;
 }
 .submit-button{
@@ -673,9 +686,12 @@ body{
 .tqiw-textarea{
     resize: none;
     float: left;
-    border: 1px solid #4aadd6;
+    border: 1px solid #9AD6E0;
     min-height: 95px;
     padding: 2%;
+    width: 100%;
+    margin-bottom: 30px;
+    outline: 0;
 }
 /* form css ends */
 
